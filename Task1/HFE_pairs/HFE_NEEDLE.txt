@@ -1,0 +1,1081 @@
+########################################
+# Program: needle
+# Rundate: Mon  1 Apr 2024 06:04:24
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20240401-060353-0567-31011313-p1m.asequence
+#    -bsequence emboss_needle-I20240401-060353-0567-31011313-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 26087429-26098343
+# 2: c23894837-23886017
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12963
+# Identity:    5355/12963 (41.3%)
+# Similarity:  5355/12963 (41.3%)
+# Gaps:        6190/12963 (47.8%)
+# Score: 11272.5
+# 
+#
+#=======================================
+
+26087429-2609      1 --------------------------------------------------      0
+                                                                       
+c23894837-238      1 ATCAATGTCCCGGAAAGGGATCTAGCTTGTCAGGAAGTTTTGTCTGAGAG     50
+
+26087429-2609      1 --------------------------------------------------      0
+                                                                       
+c23894837-238     51 GTCTGGAACCTCAGCAATGGCTACAGGGTGACTTCTTGGATCCTCCACGT    100
+
+26087429-2609      1 ----------------AG------------AGCTGGGGAAATGGGCCCGC     22
+                                     ||            |||||.|||.|||.|||...
+c23894837-238    101 TTCCAGATCCTAGTGAAGACCGGTGGACCCAGCTGAGGACATGAGCCTAT    150
+
+26087429-2609     23 GAGCCAGGC--------CGG-CGCTTCTCCTCCTGATGCTTTTGC---AG     60
+                     .|||..|||        ||| ||||.||.||.|||.||||..|||   .|
+c23894837-238    151 CAGCTGGGCTCCCTGTGCGGCCGCTGCTGCTGCTGCTGCTACTGCTGTGG    200
+
+26087429-2609     61 ACCGCGGTCCTGCAGGGGCGCTTG---CTGCGTGAGTCCGAGGGCTGCGG    107
+                     .|||.||.||.|||||..|   ||   |.|||||||         |||||
+c23894837-238    201 TCCGTGGCCCCGCAGGCAC---TGCCACCGCGTGAG---------TGCGG    238
+
+26087429-2609    108 G-CGAACTAGGGGCGCGGCGGGGGTGGAAAAATCGAAACTAGCTTTTTCT    156
+                     | .|||..|||.| |.||.|.|||..|.||||.|||||.|.||  ||.||
+c23894837-238    239 GAGGAAAAAGGTG-GGGGTGTGGGAAGCAAAACCGAAAGTGGC--TTCCT    285
+
+26087429-2609    157 TTGCGCTTGGGAGTTTGCTAACTTTGGAGG------ACCTGCTCAACCCT    200
+                     |.||||.| ||.|||| ||..|||.|.|||      ||.|.||   |.||
+c23894837-238    286 TGGCGCCT-GGTGTTT-CTCTCTTCGAAGGCGAACTACTTTCT---CTCT    330
+
+26087429-2609    201 -ATCCGCAAGCCCCTCTCCCTACTTTCTGCGTCCAGACCCCGTGAGGGAG    249
+                      ||          ||||.||..||.||.||.|.||||||||..||||||.
+c23894837-238    331 GAT----------CTCTTCCAGCTCTCAGCTTGCAGACCCCCAGAGGGAA    370
+
+26087429-2609    250 TGCCTACCACTGAACT-GCAGATAGGGGTCCCTCGCCCCAGG--ACCTGC    296
+                     ..|||.||||...||| ||||               ||.|||  ||||  
+c23894837-238    371 CACCTGCCACACCACTAGCAG---------------CCTAGGGCACCT--    403
+
+26087429-2609    297 CCCCTCCCCCGGCTGTCCCGGCTCTG-CGGAGTGACTTTTGGAACCGCCC    345
+                                 |||.|||.|||||| |.|||||  ||            
+c23894837-238    404 ------------CTGCCCCTGCTCTGTCAGAGTG--TT------------    427
+
+26087429-2609    346 ACTCCCTTCCCCCAACTAGAATGCTTTTAAATAAATCTCGTAGTTCCTCA    395
+                                   |||||                 |..|.||    |||
+c23894837-238    428 --------------ACTAG-----------------CGAGGAG----TCA    442
+
+26087429-2609    396 C-TTGAGCTGAGCTAAGCCTGGGGCTCCTTGAACCTGGAA-CTCGGGTTT    443
+                     | ||| |||.||||.||||||||.||||          || |||.|.|||
+c23894837-238    443 CGTTG-GCTTAGCTGAGCCTGGGTCTCC----------AATCTCTGCTTT    481
+
+26087429-2609    444 A---TTTCCAATGTCAGCTGTGCAGTTTTTTCCCCAGTCATCTC---CAA    487
+                     |   |||..|.|.|...|||||      ||.|||.|  |.||.|   |.|
+c23894837-238    482 AGTGTTTATATTTTGGACTGTG------TTACCCTA--CCTCCCTAACTA    523
+
+26087429-2609    488 ACAGG--------AAGTTCT-TCCCTGAGTGCTTGCCGAGAAGGCTGAGC    528
+                     ||.||        ||.|||| .||..|||||                   
+c23894837-238    524 ACCGGAGATCTGAAATTTCTCACCAAGAGTG-------------------    554
+
+26087429-2609    529 AAACCCACAGCAGGATCC----GCACGGGGTTTCCACCTCAGAACGAATG    574
+                       |||.||..|   .|||    |||     |||.|.|.|||         
+c23894837-238    555 --ACCAACGTC---GTCCTTTGGCA-----TTTTCTCTTCA---------    585
+
+26087429-2609    575 CGTTGGGCGGTGGGGGCGCGAAAGAGTGGCGTTGGGGATCTGAATTCTTC    624
+                         |||.|.|||      |||||         |||   ||||..|.||.
+c23894837-238    586 ----GGGTGCTGG------GAAAG---------GGG---CTGAGATGTTT    613
+
+26087429-2609    625 ACCAT---------------------TC---CACCCAC--------TTTT    642
+                     .||.|                     ||   |.|||||        ||||
+c23894837-238    614 TCCTTGTGAGCACTAGGGGTGCTGGGTCGCACTCCCACTGTGTTAATTTT    663
+
+26087429-2609    643 G-----------GTGAGA---------------------CCTGGGGTGGA    660
+                     |           ||||||                     ||.||||.||.
+c23894837-238    664 GTGTGTGTATGTGTGAGACAAAGCAAAGGTCACTTGGAGCCAGGGGCGGG    713
+
+26087429-2609    661 GGTCTCTAGGGTGGGAGGCTC----CTGAGAGAGGCCTACCTCGGG----    702
+                     ||      |||.|||.||..|    |.|.| ||||.|....|||||    
+c23894837-238    714 GG------GGGGGGGGGGAGCGGGGCGGCG-GAGGTCAGGGTCGGGGGTT    756
+
+26087429-2609    703 ---CCTTTCCCCACTCTTGGCAATTGTTCTTTTGCCTGGAAAATT--AAG    747
+                        |||.|||.||||||||.||||||||||||      .|..|||  ||.
+c23894837-238    757 AGACCTCTCCTCACTCTTGACAATTGTTCTTT------CATCATTTCAAA    800
+
+26087429-2609    748 TATATGT--TAGTTTTGAACGTTTGAACTGAACAATT-------------    782
+                     |..||||  ||.|.|          |||..||||.||             
+c23894837-238    801 TGGATGTAATACTGT----------AACCAAACATTTTAGGGCAGAAGGC    840
+
+26087429-2609    783 -----CTCTTTTCGGCTAGGCTTTATTGATTTGCAATGTGCTGTGT---A    824
+                          ||||    ||| ||.|.|| .||.||.||||    |.||||   |
+c23894837-238    841 CAGGACTCT----GGC-AGCCCTT-GTGGTTGGCAA----CAGTGTTCCA    880
+
+26087429-2609    825 ATTAAGAGGCCTCTCTACAAAGTACTGATAATGAACATGTAAGCAATGCA    874
+                     |||||.|.|||        .||||   ||||.|||               
+c23894837-238    881 ATTAAAAAGCC--------CAGTA---ATAACGAA---------------    904
+
+26087429-2609    875 CTCACTTCTAAGTTACATTCATATCTGATCTTATTTGATTTTCACTAGGC    924
+                      .||.|||||                              ||||.|    
+c23894837-238    905 -ACAGTTCTA------------------------------TTCAGT----    919
+
+26087429-2609    925 ATAGGGAGGTAGGAGCTAATAATACGTTTATTTTACTAGAAGTTA-ACTG    973
+                                              |||             ||.| ||||
+c23894837-238    920 -------------------------GTT-------------GTCATACTG    931
+
+26087429-2609    974 GAATTCAGATTATATAACTCTTTTCAGGTTACAAAGAACATAAATAATCT   1023
+                     |.|   |||              |||.||.||..||.|   |||.|.|| 
+c23894837-238    932 GGA---AGA--------------TCAAGTGACCCAGCA---AAAGAGTC-    960
+
+26087429-2609   1024 GGTTTTCTGATGTTATTTCAAGTACTACAGCTGCTTCTAATCTTAGTTGA   1073
+                     ..|||||.|                    |.|.||.|.|        |||
+c23894837-238    961 CATTTTCAG--------------------GGTCCTGCCA--------TGA    982
+
+26087429-2609   1074 CAGT--GATTTTGCCCTGTAGTGTA--GCACAGTGTTCTGTGGGTCACAC   1119
+                     ||.|  ||||      |..||.|.|  |.||.|..||||.|||   |.|.
+c23894837-238    983 CATTTAGATT------TAAAGAGAAAGGAACGGATTTCTCTGG---ATAG   1023
+
+26087429-2609   1120 GCCGGCCTCAGCACAGCACTTTGAGTTTTGGTACTACGTGTATCCACATT   1169
+                     .|||.||             |.|||           |.||.||||     
+c23894837-238   1024 ACCGCCC-------------TGGAG-----------CCTGCATCC-----   1044
+
+26087429-2609   1170 TTACACATGACAAGAATGAG-GCATGGCACGGCCTGCTTCCTGGCAAATT   1218
+                                      ||| .|||                    |||||
+c23894837-238   1045 -----------------GAGTCCAT--------------------AAATT   1057
+
+26087429-2609   1219 TATTCAATGGTACA-CTGGGCTTTGGTGGCAGAGCTCATGTCTCCACTTC   1267
+                              ||.|| |||   ||||.||..||.||.||            
+c23894837-238   1058 ---------GTTCATCTG---TTTGTTGTTAGGGCACA------------   1083
+
+26087429-2609   1268 AT--AGCTATGATTCTT------AAACATCACACTGCATTAGAGGTTGAA   1309
+                     ||  |||.||  |||||      .|||.|   .|||| .||||.||    
+c23894837-238   1084 ATGGAGCAAT--TTCTTCTGCCCCAACGT---GCTGC-CTAGACGT----   1123
+
+26087429-2609   1310 TAATAAAATTTCATGTTGAGCAGAAATATTCATTG-TTTACAAGTGT---   1355
+                                         ||.|.|||   |||| |||   |||||   
+c23894837-238   1124 --------------------CATAGATA---ATTGCTTT---AGTGTGAT   1147
+
+26087429-2609   1356 ---------AAA-----TGAGTCCCAGCCATGTGTTGCACT-----GTTC   1386
+                              |||     |||.|||        ||||   ||     |||.
+c23894837-238   1148 GGGGGTGAGAAACAGGGTGACTCC--------TGTT---CTGAGGCGTTG   1186
+
+26087429-2609   1387 AAG-----CC------CCAAGGGAGAGAGCAGG---GAAACAA-------   1415
+                     |.|     ||      |||||||| |...||||   |..||||       
+c23894837-238   1187 ATGGTATTCCTGTAATCCAAGGGA-ACTTCAGGTTTGGGACAATATCTTT   1235
+
+26087429-2609   1416 --GTCTTTACCCTTTGATATTTTGCATTCTAGTGGGAGAGATGACAATAA   1463
+                       |||||.|.||||.||                     |||.||.||   
+c23894837-238   1236 GTGTCTTCAGCCTTGGA---------------------AGAGGATAA---   1261
+
+26087429-2609   1464 GCAAATGAGCAGAAAGATATACAACATCAGGAAATCATGGGTGTTGTGAG   1513
+                           |||                                 |||     
+c23894837-238   1262 ------GAG---------------------------------GTT-----   1267
+
+26087429-2609   1514 AAGCAGAGAAGTCAGGGCAAGTCACTCTGGGGCTGACACTTGAGCAGAGA   1563
+                     ||| ||||.||        ||||                     |||   
+c23894837-238   1268 AAG-AGAGGAG--------AGTC---------------------CAG---   1284
+
+26087429-2609   1564 CATGAAGGAAATAAGAATGATATTGACTGGGAG-CAGTATTTCCCAGGCA   1612
+                     ||.|||||     ||..||||         ||| ||        |||  |
+c23894837-238   1285 CAGGAAGG-----AGTCTGAT---------GAGACA--------CAG--A   1310
+
+26087429-2609   1613 AACTGAGTGGGCCTGGCAAGTTGGATTAAAAAGCGGGTTTTCTCAGCACT   1662
+                     |             ||||||                     ||.|||||.
+c23894837-238   1311 A-------------GGCAAG---------------------CTGAGCACC   1326
+
+26087429-2609   1663 ACTCATGTGTGTGTGTGTGGGGGGGGGGGGCGGCGTGGGGGTGGGAAGGG   1712
+                     |                              |||.|              
+c23894837-238   1327 A------------------------------GGCCT--------------   1332
+
+26087429-2609   1713 GGACTACCATCTGCATGTAGGATGTCTAGCAGTATCCTGTCCTCCCTACT   1762
+                           |||||                        |||.||      |||
+c23894837-238   1333 ------CCATC------------------------CCTTTC------ACT   1346
+
+26087429-2609   1763 CAC--TAGGTGCTAGGAGCACTCCCCCAGTCTTGACAACCAAAAATGTCT   1810
+                     |||  |.||||.||||              ||.|           ||.| 
+c23894837-238   1347 CACTGTGGGTGATAGG--------------CTGG-----------TGCC-   1370
+
+26087429-2609   1811 CTAAACTTTGCCACATGTCACCT----AGTAGACAAACTCCTGGTTAAGA   1856
+                          ||.||.||   |||||||    ||        |.|||||      
+c23894837-238   1371 -----CTCTGTCA---GTCACCTTCCGAG--------CACCTGG------   1398
+
+26087429-2609   1857 AGCTCGGGTTGAAAAAAATAAACAAGTAGTGCTGGGGAGTAGAGGCCAAG   1906
+                     .||||               |.|.|||        |||            
+c23894837-238   1399 CGCTC---------------ACCCAGT--------GGA------------   1413
+
+26087429-2609   1907 AAGTAGGTAATGGGCTCAGAAGAGGAGCCACAAAC------AAGGTTGTG   1950
+                                  ||||               |||      ||.|||   
+c23894837-238   1414 -------------GCTC---------------AACTTTCCTAATGTT---   1432
+
+26087429-2609   1951 CAGGCG--CCTGTAG-------------GCTGTGGTGTGAATTCTAGCCA   1985
+                        |||  |||.|||             ||||.||||   |..|||.|||
+c23894837-238   1433 ---GCGACCCTTTAGTACAGTTTCTCATGCTGCGGTG---ACCCTAACCA   1476
+
+26087429-2609   1986 AGGAGTAACAGTGA--TCTGTCACAGGCTTTTAAAAGA------TTGCTC   2027
+                          ||| |.|.|  |.|||    .|||.||..|.||      ||||||
+c23894837-238   1477 -----TAA-AATTATTTTTGT----TGCTATTTTATGAGTTATTTTGCTC   1516
+
+26087429-2609   2028 TGGCTGCTATG---TGGAAAGCAGAATGAAGGGAGCAACAGT--AAAAGC   2072
+                     |      ||||   ||.||.|.|             ||.|.|  |.|.||
+c23894837-238   1517 T------TATGAATTGTAATGTA-------------AATATTTGATATGC   1547
+
+26087429-2609   2073 AGGG-AGCCCAGCCAGGAAGCTGTTACACAGTCCAGGCAAGAGGTAGTGG   2121
+                     |||| |.|..||      ||.|||.||.|        |||| |||||   
+c23894837-238   1548 AGGGTATCTGAG------AGATGTGACCC--------CAAG-GGTAG---   1579
+
+26087429-2609   2122 AGTGGGCTGGGTGGGAACAGAAAAGGGAGTGACAAACCATTG-TCTCCTG   2170
+                                                        ||||.|| |||.|.|
+c23894837-238   1580 -----------------------------------ACCACTGCTCTACAG   1594
+
+26087429-2609   2171 AAT-ATATTCTGAAGGAAGTTGCTGAAGGATTCTATG----TTGTGTGAG   2215
+                     .|| .|.|||.|.|||...|||||||       |.||    ||       
+c23894837-238   1595 GATCTTGTTCAGCAGGGCTTTGCTGA-------TTTGCAAATT-------   1630
+
+26087429-2609   2216 AGAAAGAGAAGAATTGGCTGGGTGTAGTAGCTCATGCCAAGGAGGAGGCC   2265
+                         |.|.|||||||..|.||..||         |.|.||  ||||..||
+c23894837-238   1631 ----AAAAAAGAATTAACAGGCCGT---------TTCTAA--AGGATACC   1665
+
+26087429-2609   2266 AAGGAGAGCAGATTCCTGAGCTCAGGAGTTCAAGACCAGCCTGGGCAACA   2315
+                     ||              ||.|||                ||.|        
+c23894837-238   1666 AA--------------TGTGCT----------------GCTT--------   1677
+
+26087429-2609   2316 CAGCAAAACCCCTTCTCTACAAAAAAT-ACAAAAATTAGCTGGGTGTGGT   2364
+                          ||..|.|||         .||| |||        ||.||      
+c23894837-238   1678 -----AATGCACTT---------TAATAACA--------CTAGG------   1699
+
+26087429-2609   2365 GGCATGCACCTGTGATCCTAGCTACTCGGGAGGCTGAGGTGGAGGGTATT   2414
+                            |.||||||||||                             ||
+c23894837-238   1700 -------ATCTGTGATCCT-----------------------------TT   1713
+
+26087429-2609   2415 GCTTGA--------GCCCAGGAAGTTGAGGCTGCAGTGAGCCATGACTGT   2456
+                       ||||        ||||.||     ||..|.|||||             
+c23894837-238   1714 --TTGACTAATCATGCCCTGG-----GAAACAGCAGT-------------   1743
+
+26087429-2609   2457 GCCACTG-TACTTCAGCCTAGGTGACAGAGCAAGACCCTGTCTCCCCTGA   2505
+                       .|||| ||.||.|  ||||.|  ||||           |||..|||  
+c23894837-238   1744 --TACTGCTAGTTAA--CTAGCT--CAGA-----------TCTTTCCT--   1774
+
+26087429-2609   2506 CCCCCTGAAAAAGAGAAGAGTTAAAGTTGACTTTGTTCTTTATTTTAATT   2555
+                      |...|.|.|||||    |..||.|.||.|.|.||.|||||       ||
+c23894837-238   1775 -CAGGTCACAAAGA----ATATACACTTAAATCTGATCTTT-------TT   1812
+
+26087429-2609   2556 TTATTGGCCT-GAGCAGTGGGGTAATTGGCAATGCCATTTCTGAGATG--   2602
+                     ||.||..||| ||                       |.|||||||.||  
+c23894837-238   1813 TTTTTCTCCTAGA-----------------------AATTCTGAGGTGCG   1839
+
+26087429-2609   2603 ----------GTGAAG-GCAGAGGAAAGAGCAGTTTGGGGT--AAATCAA   2639
+                               |||.|| .||||            .||||.|  ||.||| 
+c23894837-238   1840 GTGTCTCCCTGTGTAGTTCAGA------------CTGGGCTACAACTCA-   1876
+
+26087429-2609   2640 GGATCTGCAT------TTGGACATGTTAAGTTTGAGA-----TTCCAG--   2676
+                      ..|.|||||      .|||||   |.||...|||||     .|||.|  
+c23894837-238   1877 -CCTATGCATATCAGGATGGAC---TCAAAGCTGAGACAATCCTCCTGCC   1922
+
+26087429-2609   2677 TCAGGCTTCCA-AGTGGTGAGGCCACATAGGCAGTTCAGTGTAAG--AAT   2723
+                     ||||.| |||| |||..|..||.||.|          |||||.||  |.|
+c23894837-238   1923 TCAGTC-TCCAGAGTATTAGGGTCAGA----------AGTGTGAGCCACT   1961
+
+26087429-2609   2724 TCAGGACCAAGGC----------TG-GGCACGGTGGCTCACTTCTGTAAT   2762
+                     .|   .|||||||          || |.||||.||||             
+c23894837-238   1962 AC---TCCAAGGCAACAAACATTTGTGACACGCTGGC-------------   1995
+
+26087429-2609   2763 CCCAGCACTTTGGTGGCTGAGGCAGGTAGATCATTTGAGGTCAGGAGT--   2810
+                     |||               |.|.|||||  ..|||||    |.||.|.|  
+c23894837-238   1996 CCC---------------GTGCCAGGT--GCCATTT----TAAGCACTAA   2024
+
+26087429-2609   2811 ----------TTGAGACAAGCTTGGCCAACATGGTGAAACCCCATGTCTA   2850
+                               ||||| |||.||||       |..||.||       ||.|
+c23894837-238   2025 AGCTGTGCCCTTGAG-CAACCTTG-------TTCTGGAA-------TCGA   2059
+
+26087429-2609   2851 CTAAAAATA----CAAAAATTAGCC-TGGTGTG-GTGGC-----GCACGC   2889
+                     ...|||.||    .|||||  |.|| ||.||.| |||||     ||.| |
+c23894837-238   2060 GGGAAAGTAATGGGAAAAA--ACCCATGCTGAGAGTGGCTGTCAGCTC-C   2106
+
+26087429-2609   2890 CTAT------AGTCC------------CAGGTTTTCAGGAGGCTTAGGT-   2920
+                     ||.|      |||||            ||||||.||..|||  |||.|| 
+c23894837-238   2107 CTTTCCTGGAAGTCCTCTGTTTGCTGACAGGTTGTCCTGAG--TTATGTG   2154
+
+26087429-2609   2921 --AGGAGAATCCCTTGAACCCAGGAGGTGCAGGTTGCAGTGAGCTGAGAT   2968
+                       ||||.|.||      |||                     |||    ||
+c23894837-238   2155 TCAGGACACTC------ACC---------------------AGC----AT   2173
+
+26087429-2609   2969 TGT---GCCA----CTGCACTCCAGCCTGGGTGATAGAGTGAGACTCTGT   3011
+                     |.|   ||||    |||||||          |||||..||          
+c23894837-238   2174 TTTTTAGCCAACATCTGCACT----------TGATAATGT----------   2203
+
+26087429-2609   3012 CTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAACTGAAGGAATT-------   3054
+                      |||.|                            ||.||||.|       
+c23894837-238   2204 -TCAGA----------------------------GATGGAAGTGGAGAAA   2224
+
+26087429-2609   3055 -------------ATTCCTCAGGATTTGGGTC-TAATTTGCCCTGAGCAC   3090
+                                  |.||||.||||.||...|| |||  ||...|.|.|||
+c23894837-238   2225 GCCCAGTACCTCCAATCCTTAGGACTTTCATCTTAA--TGGATTAAACAC   2272
+
+26087429-2609   3091 CAACTCCTGAG-TTCAACTACCATGGCTAGACACACCTTAACATTTTCTA   3139
+                     ||||| ||.|| ||...||| |||.||||||.|.|||..||||.||||.|
+c23894837-238   2273 CAACT-CTTAGCTTAGCCTA-CATAGCTAGAGAAACCCAAACACTTTCCA   2320
+
+26087429-2609   3140 GAATCCACCAGCTTTAGTGGAGTCTGTCTAATCATGAGTATTGGAATAGG   3189
+                     ||.||                 |.|||||||           ||      
+c23894837-238   2321 GAGTC-----------------TGTGTCTAA-----------GG------   2336
+
+26087429-2609   3190 ATCTGGGGGCAGTGAGGGGGTGG----------CAGCCACGTGTGGCAGA   3229
+                        |||||       .||||.||          ||..||..|     |||
+c23894837-238   2337 ---TGGGG-------TGGGGAGGATAACCTATCCACTCAAAT-----AGA   2371
+
+26087429-2609   3230 GAAAA----------GCACACAA------GGAA-----AGAGCACCCAGG   3258
+                     |||.|          |.|||.||      .|||     ||||||.|||||
+c23894837-238   2372 GAACATCAAGATGGTGAACAGAATAAGAGCGAACAGCCAGAGCAGCCAGG   2421
+
+26087429-2609   3259 ACTGT-CATATGGAAGAAAGACAGGACTGCAAC----TCACCCTTCACAA   3303
+                     .|||| |  |.|||||      ||.|||  |||    |||  ||.|||| 
+c23894837-238   2422 GCTGTGC--AGGGAAG------AGAACT--AACTGTGTCA--CTCCACA-   2458
+
+26087429-2609   3304 AATGAGGACCAGACACA---GCTGATGGTATGAGTTGATGCAGG--TGTG   3348
+                        |.|||  .|||.||   .|||...|.|.|||.|.|..||||  |||.
+c23894837-238   2459 ---GGGGA--GGACTCACTCTCTGGCAGCAGGAGGTAACCCAGGGCTGTA   2503
+
+26087429-2609   3349 TGGAGCCTCAACATCCT----------GCTCCCCTCCTACTACACATGGT   3388
+                     .||| ||||..||||||          |||.||           |||..|
+c23894837-238   2504 GGGA-CCTCTGCATCCTGATTGGGCTGGCTGCC-----------CATTCT   2541
+
+26087429-2609   3389 TAAGGCCTGTTG-CTCTGTCTCCAGGTTCACACTCTCTGCACTACCTCTT   3437
+                     .||.|.|||.|| ||   ||||||||||||||.|||||....||||||||
+c23894837-238   2542 GAATGTCTGCTGACT---TCTCCAGGTTCACATTCTCTAAGATACCTCTT   2588
+
+26087429-2609   3438 CATGGGTGCCTCAGAGCAGGACCTTGGTCTTTCCTTGTTTGAAGCTTTGG   3487
+                     |||||||||||||||||..|||||.||.||..|.||||||||.|||..||
+c23894837-238   2589 CATGGGTGCCTCAGAGCCAGACCTCGGGCTGCCTTTGTTTGAGGCTAGGG   2638
+
+26087429-2609   3488 GCTACGTGGATGACCAGCTGTTCGTGTTCTATGATCATGAGAGTCGCCGT   3537
+                     ||||.||||||||||||||.||.||||.|||..|||||||||||||||||
+c23894837-238   2639 GCTATGTGGATGACCAGCTCTTTGTGTCCTACAATCATGAGAGTCGCCGT   2688
+
+26087429-2609   3538 GTGGAGCCCCGAACTCCATGGGT-TTCCAGTAGAATTTCAAGCCAGATGT   3586
+                     |..||||||.|..|.||.|||.| ||..||.| ||..|||||||||.|||
+c23894837-238   2689 GCTGAGCCCAGGGCCCCGTGGATCTTGGAGCA-AACCTCAAGCCAGCTGT   2737
+
+26087429-2609   3587 GGCTGCAGCTGAGTCAGAGTCTGAAAGGGTGGGATCACATGTTCACTGTT   3636
+                     |||||||.|||||||||||.||||||||||||||..|||||||||..||.
+c23894837-238   2738 GGCTGCATCTGAGTCAGAGCCTGAAAGGGTGGGACTACATGTTCATAGTA   2787
+
+26087429-2609   3637 GACTTCTGGACTATTATGGAAAATCACAACCACAGCAAGGGTATGTGGAG   3686
+                     |||||||||||.||.||||..||..|.||||||||.|||||||.||||||
+c23894837-238   2788 GACTTCTGGACCATCATGGGCAACTATAACCACAGTAAGGGTACGTGGAG   2837
+
+26087429-2609   3687 --------------------------------------------------   3686
+                                                                       
+c23894837-238   2838 CAGAGTCACTCCCCTGAGATGCTCAGAGCATAGCACTATTTTCCAACCCT   2887
+
+26087429-2609   3687 --------------------------------------------------   3686
+                                                                       
+c23894837-238   2888 GGGGATATAGCTTTGTAAAAGAAACTTTTATTCTCCTGGTGTACTTGATG   2937
+
+26087429-2609   3687 ---AGGGGGC----------------------------------------   3693
+                        |||.|||                                        
+c23894837-238   2938 TCTAGGAGGCTCTCTGCCTCTGTCTGCTAACCTAGGCCTACTCAGGGAAG   2987
+
+26087429-2609   3694 ----------------------------------------CTCACCTTC-   3702
+                                                             ||||.|.|| 
+c23894837-238   2988 CTTCTAGCCTCCGTACAATCTAATCTCGGCCTAGAATGTTCTCAGCCTCT   3037
+
+26087429-2609   3703 --------------------CTGA--------------------------   3706
+                                         ||||                          
+c23894837-238   3038 GAGACTTGCTGCTCAACAAGCTGACTTTTTCTAGCTCTCTCTGAACTCTG   3087
+
+26087429-2609   3707 -------GGTT---------------------------------------   3710
+                            ||||                                       
+c23894837-238   3088 GCTGGCTGGTTCAACTCAGCTGTTCTGGCTCCGACTCCTCTCACAGCTGG   3137
+
+26087429-2609   3711 -----------------------------GTCAGAGCTT-----------   3720
+                                                  .||||||.||           
+c23894837-238   3138 TTATTCAATATGGCTTTTCTCTCAGGCTCTTCAGAGGTTCTGCTTGGCCT   3187
+
+26087429-2609   3721 --------------------------------------------------   3720
+                                                                       
+c23894837-238   3188 CACACAAACTCTGGCAATGTTTTCTAATCTCCTGGCTTCTTCTCCTTCTC   3237
+
+26087429-2609   3721 --------------TTCA------------------TCTTTTCA------   3732
+                                   ||||                  |||.||||      
+c23894837-238   3238 TTACTTGTTCTGTCTTCACCTGTGTCTAGCTCGTTCTCTCTTCAGTCGGT   3287
+
+26087429-2609   3733 --------------------------------------------------   3732
+                                                                       
+c23894837-238   3288 CTCCGTAAAACTCTTCTGGTAACACTGCCTCCTTCTCCCTCCCTGTGCTT   3337
+
+26087429-2609   3733 ------------------------TGCA---TCTTGAAGGAA--------   3747
+                                             ||||   |||..|.||||        
+c23894837-238   3338 CTCCACTCTCCCTCACAGCTCTACTGCACTGTCTCCATGGAATCTCCTGT   3387
+
+26087429-2609   3748 --------------------------------------------------   3747
+                                                                       
+c23894837-238   3388 GTTCCTGGACTGGACGCTCCTCCTCCCGTGCTGTCTGTCTCTCACTTTTC   3437
+
+26087429-2609   3748 ---------------ACAGCTGG-----------------AAGTCTGA--   3763
+                                    ||||.|||                 ||.|||||  
+c23894837-238   3438 CTCTATCTTCTTGTGACAGTTGGGCATATCCTTTTCTGTCAACTCTGATT   3487
+
+26087429-2609   3764 GGTC----------------------------------------------   3767
+                     .|||                                              
+c23894837-238   3488 TGTCACTTCATCTGCCTCTTAATCAGACATCACTTTCAAATATGAGTGCT   3537
+
+26087429-2609   3768 ------------------------TTG-----TGGG-------------A   3775
+                                             |||     ||||             |
+c23894837-238   3538 TCCTTCTACAAACTAACTTTACCTTTGTTGTTTGGGATTAAACTCGAATA   3587
+
+26087429-2609   3776 GCAGGG-----------------AAGAGGGAAGGAA----TTTGCT----   3800
+                     |.||||                 .|||||||..|||    |.||||    
+c23894837-238   3588 GTAGGGTGAGTCTGTGTTCTAGACAGAGGGATTGAAGATGTGTGCTCAGC   3637
+
+26087429-2609   3801 ---------------------------TCCTGAGATCATTT---------   3814
+                                                ||||| .|||||.|         
+c23894837-238   3638 CCCACAAACTAGAAATAGGTTCAATTATCCTG-TATCATATCTTGAAGTG   3686
+
+26087429-2609   3815 -GGTCCTTGGGGAT-GGTGGAAAT----AGGGACCTA------TTCCT--   3850
+                      |.||| |||||.| ||.||||||    |||||..||      |.|||  
+c23894837-238   3687 AGATCC-TGGGGTTGGGGGGAAATCCAGAGGGAGATAGTTGTGTGCCTCA   3735
+
+26087429-2609   3851 -------------TTGG------------------------------TTG   3857
+                                  ||||                              ||.
+c23894837-238   3736 GATCACTCGATACTTGGAGATGGTGAAGACAAAACCAACCTTTTTATTTC   3785
+
+26087429-2609   3858 CAGTTAACAAGGCTGGGGATT--TTTCCAGAGTCCCACACCCTGCAGGTC   3905
+                     ||||.|..|||  |.||||.|  |.||| ||||||||||.|||||||||.
+c23894837-238   3786 CAGTCACGAAG--TTGGGAGTGGTGTCC-GAGTCCCACATCCTGCAGGTG   3832
+
+26087429-2609   3906 ATCCTGGGCTGTGAAATGCAAGAAGACAACAGTACCGAG-GGCTACTGGA   3954
+                     .||||.||||||||..||||.||||||||||||||| || ||||.|||||
+c23894837-238   3833 GTCCTAGGCTGTGAGGTGCATGAAGACAACAGTACC-AGCGGCTTCTGGA   3881
+
+26087429-2609   3955 AGTACGGGTATGATGGGCAGGACCACCTTGAATTCTGCCCTGACACACTG   4004
+                     ..||.||.|||||.|||||.||.|||||.|||||||||||..|.|||||.
+c23894837-238   3882 GATATGGTTATGACGGGCAAGATCACCTGGAATTCTGCCCCAAGACACTA   3931
+
+26087429-2609   4005 GATTGGAGAGCAGCAGAACCCAGGGCCTGGCCCACCAAGCTGGAGTGGGA   4054
+                     .|.|||||.|||||.||.||..||||||||.||||||||.||||.|||||
+c23894837-238   3932 AACTGGAGCGCAGCCGAGCCAGGGGCCTGGGCCACCAAGGTGGAATGGGA   3981
+
+26087429-2609   4055 AAGGCACAAGATTCGGGCCAGGCAGAACAGGGCCTACCTGGAGAGGGACT   4104
+                     ...|||||||||.||.||||..||||||||||.|||||||||||.|||||
+c23894837-238   3982 CGAGCACAAGATCCGTGCCAAACAGAACAGGGACTACCTGGAGAAGGACT   4031
+
+26087429-2609   4105 GCCCTGCACAGCTGCAGCAGTTGCTGGAGCTGGGGAGAGGTGTTTTGGAC   4154
+                     ||||.|..||||||.|.|.|.|.|||||||||||||||||.|||.|||..
+c23894837-238   4032 GCCCCGAGCAGCTGAAACGGCTCCTGGAGCTGGGGAGAGGCGTTCTGGGA   4081
+
+26087429-2609   4155 CAACAAGGTATGGTGGAAACACACTTCTGCCCCTATACTCTAGTGGCAGA   4204
+                     ||.|||||||||..|.|               ||.|.|||          
+c23894837-238   4082 CAGCAAGGTATGAAGAA---------------CTGTGCTC----------   4106
+
+26087429-2609   4205 GTGGAGGAGGTTGCAGGGCACGGAATCCC-TGGTTGGAGT---TTCAG-A   4249
+                         |||                   ||| ||||  ||.|   || || |
+c23894837-238   4107 ----AGG-------------------CCCTTGGT--GACTAACTT-AGTA   4130
+
+26087429-2609   4250 GGTGGCTGAGGCTGTGTGCCTCTCCAAATTCTGGGAAGGGACTTTCTCAA   4299
+                     .||..|..||.|||   ||||   ||||.||...||            ||
+c23894837-238   4131 TGTAACCAAGCCTG---GCCT---CAAACTCCCAGA------------AA   4162
+
+26087429-2609   4300 TCCTAGAGTCTCTACCTTATAATTGAGATGTATGAGACAGCCACAAGTCA   4349
+                     ||       ||||..|||                   ||||         
+c23894837-238   4163 TC-------CTCTTGCTT-------------------CAGC---------   4177
+
+26087429-2609   4350 TGGGTTTAATTTCT-----TTTCTCCATGCATATGGCTCAAAGGGAAGTG   4394
+                              |||||     |||||  |.|..||.|| |||.|   ||...
+c23894837-238   4178 ---------TTTCTATGTATTTCT--AGGATTACGG-TCATA---AACCA   4212
+
+26087429-2609   4395 TCTATGGCCCTTGCTTTTTATTTAACCAATAATCTTTTGTATATTTATAC   4444
+                     |||     .|||..||.||.|||..|..||    |.||||   |||.|.|
+c23894837-238   4213 TCT-----GCTTCATTGTTGTTTGTCTGAT----TGTTGT---TTTCTTC   4250
+
+26087429-2609   4445 CTGTTAAAAATTCAGAAATGTCAAGGCCGGGCACGGTGGCTCACCCCTGT   4494
+                               ||.|||.|       |||          .|||| |.||||
+c23894837-238   4251 ----------TTTAGATA-------GCC----------TCTCA-CACTGT   4272
+
+26087429-2609   4495 AATCCCAGCACTTTGGGAGGCCGAGGCGGGTGGTCACAAGGTCAGGAGTT   4544
+                     |                  |||.||||.|||     |.||.||       
+c23894837-238   4273 A------------------GCCAAGGCTGGT-----CTAGATC-------   4292
+
+26087429-2609   4545 TGAGACCAGCCTGACCAACATGGTGAAACCCGTCTCTAAAAAAATACAAA   4594
+                                                     ||.|||            
+c23894837-238   4293 --------------------------------TCACTA------------   4298
+
+26087429-2609   4595 AATTAGCTGGTCACAGTCATGCGCACCTGTAGTCCCAGCTAATTGGAAGG   4644
+                                                |||||.||||.||          
+c23894837-238   4299 ---------------------------TGTAGGCCCAACT----------   4311
+
+26087429-2609   4645 CTGAGGCAGGAGCATCGCTTGAACCTGGGAAGCGGAAGTTGCACTGAGCC   4694
+                        ||.||                                         |
+c23894837-238   4312 ---AGCCA-----------------------------------------C   4317
+
+26087429-2609   4695 AAGATCGCGCCACTGCACTCCAGCCTAGGCAGCAGAGTGAGACTCC---A   4741
+                     ||.|      |||.|| |||  ||||                 |||   .
+c23894837-238   4318 AAAA------CACAGC-CTC--GCCT-----------------TCCTAAG   4341
+
+26087429-2609   4742 TCTTAAAAAAAAAAAAAAAAAAAAAAAGAGAA-TTCAGAGATCTCAGCTA   4790
+                     ||||                         ||| ||||.||          
+c23894837-238   4342 TCTT-------------------------GAATTTCAAAG----------   4356
+
+26087429-2609   4791 TCATATGAATACCAGGACAAAATATCAAGTGAGGCCACTTATCAGAGTAG   4840
+                                                |||||..|||||..|    |..|
+c23894837-238   4357 ---------------------------AGTGAACCCACTGTT----GGGG   4375
+
+26087429-2609   4841 AAGAATCCTTTAGGTTAAAAGTTTCTTTCATAGAACATAGCAATAATCAC   4890
+                     |.|||  |||           |||..|||||                 |.
+c23894837-238   4376 ATGAA--CTT-----------TTTGCTTCAT-----------------AT   4395
+
+26087429-2609   4891 TGAAGCTACCTATCTTACAAGTCCGCTTCTTATAACAATGCCTCCTAGGT   4940
+                     |||||                       |.|||||||    |..|||.| 
+c23894837-238   4396 TGAAG-----------------------CATATAACA----CAACTAAG-   4417
+
+26087429-2609   4941 TGACCCAGGTGAAACTGACCATCTGTATTCAATCATTTTCAATGCACATA   4990
+                                 ||||              |||.|.||         |.|
+c23894837-238   4418 ------------AACT--------------AATAAATT---------AGA   4432
+
+26087429-2609   4991 AAGGGCAATTTTA----TCTATCAGAACAAAGAACATGGGTA-ACAGATA   5035
+                     |||||.|||.|||    .||    ||.||.||.||.||||.| ||||   
+c23894837-238   4433 AAGGGAAATGTTAGTGGCCT----GACCAGAGGACCTGGGCAGACAG---   4475
+
+26087429-2609   5036 TGTATATTTACATG-TGAGGAGAACAAG-CTGATCTGACTGCTCTCCA--   5081
+                                 || |||.|||.| ||| ||||..||.|||.||||||  
+c23894837-238   4476 ------------TGCTGAAGAGGA-AAGACTGAAGTGGCTGTTCTCCATT   4512
+
+26087429-2609   5082 AGTGACACTGTG--------TTAGAGTCCAATCTTAGGACACAAAATGGT   5123
+                     ||||    ||||        || ||..|||.|.|.||||.|..||||||.
+c23894837-238   4513 AGTG----TGTGACTTCATCTT-GAAGCCATTTTCAGGATATCAAATGGC   4557
+
+26087429-2609   5124 GTCTCTCCTGTAGC----------TTGTTTTTTTCTGAAAAG--------   5155
+                     .|||||  .|.|||          |||||||.||.||   .|        
+c23894837-238   4558 ATCTCT--GGCAGCCAGGGTTTTTTTGTTTTGTTTTG---TGTGTGTGTG   4602
+
+26087429-2609   5156 -----------------------GGTATTTCCTTCCT--CCAACCTATAG   5180
+                                            |.|||||  |||||  ||||   |.||
+c23894837-238   4603 TGTGTGTGTGTGTGTGTGTGTGTGCTATTT--TTCCTACCCAA---AAAG   4647
+
+26087429-2609   5181 AAGGAAGTGAAAGTTCCAG---TCTTC-CTGG--CAAGGGTAAACAGATC   5224
+                     |  |||||||||.||||||   ||||| ||||  .||||     |||   
+c23894837-238   4648 A--GAAGTGAAAATTCCAGTTCTCTTCTCTGGAATAAGG-----CAG---   4687
+
+26087429-2609   5225 CCCTCTCCTCA--TCCTTCCTCTTTCCTGTCAAGTGCCTCCTTTGGTGAA   5272
+                        .|||||||  |.||||||||||||..||||||||||.||||||||||
+c23894837-238   4688 ---CCTCCTCATGTACTTCCTCTTTCCCTTCAAGTGCCTACTTTGGTGAA   4734
+
+26087429-2609   5273 GGTGACACATCA-TGTGACCTCTTCAGTGACCACTCTACGGTGTCGGGCC   5321
+                     .|||||.|..|| || |.|||||.|.|.||||.|||||.||||||.|||.
+c23894837-238   4735 AGTGACTCGCCACTG-GGCCTCTACGGGGACCTCTCTAAGGTGTCAGGCT   4783
+
+26087429-2609   5322 TTGAACTACTACCCCCAGAACATCACCATGAAGTGGCTGAAGGATAAGCA   5371
+                     .||.|||.||.|||||||||||||||.||||.||||.|||||||.||.||
+c23894837-238   4784 CTGGACTTCTTCCCCCAGAACATCACTATGAGGTGGTTGAAGGACAACCA   4833
+
+26087429-2609   5372 GCCAATGGATGCCAAGGAGTTCGAACCTAAAG-ACGTATTGCCCAATGGG   5420
+                     .|||.||||||||||.||..|| ||||...|| |.||..|.||.||.|||
+c23894837-238   4834 ACCACTGGATGCCAAAGATGTC-AACCCCGAGAAGGTGCTACCTAACGGG   4882
+
+26087429-2609   5421 GATGGGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGA   5470
+                     ||||.||||||.||.||||||.|.||.|||||.||..||||||||||.||
+c23894837-238   4883 GATGAGACCTATCAAGGCTGGCTGACATTGGCCGTGGCCCCTGGGGACGA   4932
+
+26087429-2609   5471 G-CAGAGATATACGTGCCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTC   5519
+                     | || ||.|..||.||.||.||||||||||||||||||||.|||||.|||
+c23894837-238   4933 GACA-AGGTTCACCTGTCAAGTGGAGCACCCAGGCCTGGACCAGCCTCTC   4981
+
+26087429-2609   5520 ATTGTGATCTGGGGTATGTGACTGATGAG-AGCCAGGAGCTGAGAAAATC   5568
+                     |.|| ..|||.|||   |||| .||||.| |...||| ||.|||...|||
+c23894837-238   4982 ACTG-CCTCTTGGG---GTGA-GGATGGGCATGTAGG-GCAGAGGTCATC   5025
+
+26087429-2609   5569 TATTGGGGGTTGAGAGGAGTGCCTGAGGAGGTAATTATGGCAGTGAGATG   5618
+                     |.|||||                 ||||.|||.|...|.||||||||| |
+c23894837-238   5026 TGTTGGG-----------------GAGGTGGTCACCTTTGCAGTGAGA-G   5057
+
+26087429-2609   5619 AGGA-TCTGCTCTTTGTTAGGGGGTGGGCTGAGGGTGGCAATCAAAGGCT   5667
+                     ||.| ||||||||       |||.||||||    |.|||..|||...|||
+c23894837-238   5058 AGTAGTCTGCTCT-------GGGCTGGGCT----GGGGCCGTCATGTGCT   5096
+
+26087429-2609   5668 TTAACTTGCTTTTTCTG-TTTTAGAGCCCTCACCGTCTGGCA--CCCTAG   5714
+                     |.||.|..|.|||..|| ||||||||||||..|..|||  ||  ||.|..
+c23894837-238   5097 TGAATTCTCATTTGTTGTTTTTAGAGCCCTTGCAATCT--CAGGCCATGA   5144
+
+26087429-2609   5715 TCATTGGAGTCATCAGTGGAATTGCTGTTTTTGTCGTCATCTTGTTCATT   5764
+                     |.||.|||.|||||||||||.|..|.||.|.|   |.||||||.||..||
+c23894837-238   5145 TTATCGGAATCATCAGTGGAGTCACCGTCTGT---GCCATCTTCTTGGTT   5191
+
+26087429-2609   5765 GGAATTTTGTTCATAATATTAAGGAAGAGGCAGGGTTCAAGTGAGTAGGA   5814
+                     ||||||.|||||.||||.||||||||.|||.|||.||||.||||||||||
+c23894837-238   5192 GGAATTCTGTTCCTAATCTTAAGGAAAAGGAAGGCTTCAGGTGAGTAGGA   5241
+
+26087429-2609   5815 AC--AAGGGGGAAGTCTCTTAGTACCTCTGCC-CCAGGGCACAGT----G   5857
+                     .|  ||   .|||||.||.|.||.|||||.|| |||||.||||.|    .
+c23894837-238   5242 GCGTAA---TGAAGTATCATGGTGCCTCTTCCTCCAGGACACACTATTCC   5288
+
+26087429-2609   5858 GGAAGAGGGGCAGAGGGGA--TCTGGCATCCATGGGAAGCATTTTTCTCA   5905
+                     .|.|||     |.|.|.||  ||||       |.||||.|     .||||
+c23894837-238   5289 TGCAGA-----AAACGTGACCTCTG-------TAGGAAAC-----CCTCA   5321
+
+26087429-2609   5906 TTTATATTCTTTGGG--GACA---CCAGCAGCTCCCTGGGAGACAGAA--   5948
+                      .|.|..|.||||.|  ||.|   |||||...||.||||      |||  
+c23894837-238   5322 -CTGTGCTTTTTGTGTTGAAAGTGCCAGCCCATCTCTGG------GAACG   5364
+
+26087429-2609   5949 --------AATAATGGTTCTCCCCAGA-ATGAAAGTCTCTAATTCAACAA   5989
+                             |||..||||| |.|||||| |.| ||||..|||||.||..||
+c23894837-238   5365 TTTTGTTTAATTTTGGTT-TTCCCAGACAAG-AAGTTCCTAATCCAGGAA   5412
+
+26087429-2609   5990 ACATCTTC-AGAGCACCTACTATTTTGCAAGAGCTGTTTAAGGT--AGTA   6036
+                     |||.|||| || ||.||||||.||.||||.|.|.|.||||||||  ||||
+c23894837-238   5413 ACACCTTCTAG-GCCCCTACTGTTGTGCAGGTGTTATTTAAGGTAGAGTA   5461
+
+26087429-2609   6037 CAGGGGCTTTGAGGTTGAG-AAGTCACTGTGGCTATTCTCAGAACCCAAA   6085
+                      |.|||.|||..||||||| |||.||||| ||..|.||.|||||.|.|||
+c23894837-238   5462 -ACGGGATTTCCGGTTGAGAAAGCCACTG-GGTAAGTCCCAGAAGCTAAA   5509
+
+26087429-2609   6086 TCTGGTAGGGAATGAAATTGATAGCAAGTAAATGTAGTTAAAGAAGACCC   6135
+                     |||.||..|||||..||||.||..||||||..|||||.||||||||||||
+c23894837-238   5510 TCTAGTGTGGAATAGAATTCATGACAAGTATGTGTAGCTAAAGAAGACCC   5559
+
+26087429-2609   6136 CATGAGGTCCTAAAGCAGG------CAGGAAGCAAATGCTTAGGGT--GT   6177
+                       ||||     ||.|..||      |.|||.| ||||.||.|...|  .|
+c23894837-238   5560 --TGAG-----AACGTGGGGTGTCACTGGACG-AAATACTCAACCTACAT   5601
+
+26087429-2609   6178 C---AAAGGA-AAGAA-------------------TGA---TCACATTCA   6201
+                     |   |||||| |.|||                   |||   |.||| |||
+c23894837-238   5602 CCAGAAAGGATATGAAAAACGGGTATGGCTGTTTGTGACCCTAACA-TCA   5650
+
+26087429-2609   6202 GCTGGGGATCAAGATAGCCTTCTGGATCTTGAAGGAGAAGCTGGA----T   6247
+                     ||     |..|||||.||..|..|    ||.||||..|..|||||    |
+c23894837-238   5651 GC-----AAAAAGATTGCAATGAG----TTAAAGGCCAGTCTGGATTGGT   5691
+
+26087429-2609   6248 TCCATTAGGTGAG--------GTTGAAGAT---------GATGGGAGGTC   6280
+                     ||..||  |||||        .|||||.||         ||         
+c23894837-238   5692 TCTGTT--GTGAGACCCTCTCTTTGAATATAGACAAACAGA---------   5730
+
+26087429-2609   6281 TACACAGACGGAGCA--------------------ACCATGCCAAGTAGG   6310
+                     ||.||||||.|| ||                    ||.||||..||||||
+c23894837-238   5731 TAGACAGACAGA-CACACACACACATACACACACCACAATGCTGAGTAGG   5779
+
+26087429-2609   6311 AGAGTATAAGGCATACTGGGAGATTAGAAATAATTACTGTACCTTAACCC   6360
+                     |||||.|                         ||||.||.|||||..|||
+c23894837-238   5780 AGAGTGT-------------------------ATTATTGGACCTTGTCCC   5804
+
+26087429-2609   6361 TGAGTTTGCGTAGCTATCACTCACCAATTATGCAT--TTCTACCCCCTGA   6408
+                     |||.||||.|    |.|..|||||    .||||||  ||.|.||||||  
+c23894837-238   5805 TGACTTTGTG----TGTTCCTCAC----AATGCATTCTTTTTCCCCCT--   5844
+
+26087429-2609   6409 ACATCTGTGG---TGTAG---GGAA------AAGA--GAATCAGAAAGAA   6444
+                       .||||.||   |||||   ||||      ||||  |||.|||||..||
+c23894837-238   5845 --CTCTGGGGATCTGTAGCATGGAACAAAACAAGAGGGAAACAGAAGCAA   5892
+
+26087429-2609   6445 GCCAGCTCATACAGAGTCCAAGGGTCTTTTGGGATATTGGGTTATGATCA   6494
+                     |||      ||||.||.||        |.|||.|.|||..|||.||||..
+c23894837-238   5893 GCC------TACATAGGCC--------TGTGGAACATTATGTTCTGATAG   5928
+
+26087429-2609   6495 CTGGGGTGTCA---TTGAAGGATCCTAAGA----AAGGAGGACCACGATC   6537
+                     ||||||   ||   .|||||  ||..||.|    |||  |||  |||   
+c23894837-238   5929 CTGGGG---CACTGGTGAAG--TCGCAAAAACACAAG--GGA--ACG---   5966
+
+26087429-2609   6538 TCCCTTATATGGTGAATGTG-TTGTTAAGAAGTTAGATGAGAGGTGAGGA   6586
+                                    ||||| ||||.|.|||||.||.|   ||||||..|
+c23894837-238   5967 ---------------ATGTGTTTGTGAGGAAGTGAGTT---AGGTGACAA   5998
+
+26087429-2609   6587 GA----CCAGTTAGAAAGCCAATAAGCATTTC----CAGATG--------   6620
+                     ||    ||| |||||.|||.|.|||.||.|||    ||||||        
+c23894837-238   5999 GAAAAGCCA-TTAGATAGCTACTAAACAGTTCCATACAGATGGTTATCTC   6047
+
+26087429-2609   6621 ---------------------------------------AGAGA------   6625
+                                                            |||||      
+c23894837-238   6048 TGGACTGTCTCAACCCGCCAACAGCCCAGGTAACAACACAGAGACTTTTT   6097
+
+26087429-2609   6626 --TAAT-------GGTT--------CTTG---------------------   6637
+                       ||||       |.||        ||||                     
+c23894837-238   6098 AGTAATTATGAAAGCTTGGCCTTAGCTTGGCAAACTCTCTACTAACTCAT   6147
+
+26087429-2609   6638 ------AAATC---------------------------------------   6642
+                           |||||                                       
+c23894837-238   6148 TTAAGTAAATCTGACCACCTGGCTCTGTCCAGCTACTGCCACTTGGTTCC   6197
+
+26087429-2609   6643 ---CAATAGT------------------GCCCAGGTCTA---------AA   6662
+                        ||..|||                  |.||.|||.||         |.
+c23894837-238   6198 TTACACAAGTACTGAACCCTGTACTCAAGTCCTGGTATAGAAATTAGCAT   6247
+
+26087429-2609   6663 TTGAG--------------------------------------------A   6668
+                     |||||                                            |
+c23894837-238   6248 TTGAGTAATACAAAGACAACCTTTACACAACACACTAGAGCTTACCCTAA   6297
+
+26087429-2609   6669 TGG---GTGAA-------TGA--------GGA---AAAT-----------   6686
+                     |||   || ||       |||        |||   ||||           
+c23894837-238   6298 TGGAGAGT-AACCATTTCTGAAATCAAATGGAGTCAAATGAATAGCATGC   6346
+
+26087429-2609   6687 ------AAGGAAGAGA---GAAG----AGG-CAAGATGGTGCCTAGGTTT   6722
+                           |.|||.||||   ||||    ||| ||||.||.||||| ||...
+c23894837-238   6347 TCAGGGAGGGAGGAGATGGGAAGGGACAGGACAAGGTGATGCCT-GGCCA   6395
+
+26087429-2609   6723 GTGATGCCTCTTTCCTGGGTCTCTTGTCTCCACAGGAGGAGCCATGGGGC   6772
+                     |||||||||| |||||||||||||||.||.| ||||||||.|||||||..
+c23894837-238   6396 GTGATGCCTC-TTCCTGGGTCTCTTGCCTTC-CAGGAGGAACCATGGGTG   6443
+
+26087429-2609   6773 ACTACGTCTTAGCTGAACGTGAGTGACACGCAGCCTGCAGACTCACTGTG   6822
+                     .|||.||||||.|.||..||||||||...|||||||||.||..|||    
+c23894837-238   6444 GCTATGTCTTAACAGACTGTGAGTGATCTGCAGCCTGCTGAACCAC----   6489
+
+26087429-2609   6823 GGAAGGAGACAAAACT-----AGAGACTCAAAGAGGGAGTGCATTTATGA   6867
+                     |||| ||||.||||||     |.|||||  ..|||||.|..||.||    
+c23894837-238   6490 GGAA-GAGAGAAAACTCAGCCAAAGACT--TGGAGGGGGCACACTT----   6532
+
+26087429-2609   6868 GCTCTTCA-TGTTTCAGGAGAGAGTTGAACCTAA-ACATAGAAATTGCCT   6915
+                     ||||  || |||   ||||.|.|||||.|||||| |||.|||||.|||||
+c23894837-238   6533 GCTC--CACTGT---AGGACACAGTTGGACCTAACACACAGAAACTGCCT   6577
+
+26087429-2609   6916 GACGAACTCCTTGATTTTAGCCTTCTCTGTTCATTTCCTCAAAAAGATTT   6965
+                     || |||||  .||.|.|||||.|||||||||||.||.||.||...|.|||
+c23894837-238   6578 GA-GAACT--GTGCTCTTAGCTTTCTCTGTTCACTTTCTTAAGGTGTTTT   6624
+
+26087429-2609   6966 CCCCATTTAGGTTTCTGAGTTCCTGCATGCCGGTGAT--CCCTAGCTGTG   7013
+                     |.|||.|||.||   |.||||||||.||....|||||  |.|.||.||..
+c23894837-238   6625 CTCCAGTTAAGT---TCAGTTCCTGAATAGTAGTGATTGCACCAGTTGCA   6671
+
+26087429-2609   7014 ACCTCTCCC-CTGGAACTGTCTCTCATGAACCTCAAGCTGCATC-TAGAG   7061
+                     ||||||||| |..|||||| .||||||||..||.|.|||||.|| |.||.
+c23894837-238   6672 ACCTCTCCCTCCAGAACTG-GTCTCATGATTCTTAGGCTGCTTCTTGGAA   6720
+
+26087429-2609   7062 GCTTCCTTCATTTCCTCCGT-CACCTCAGAGACATACACCTATGTCATTT   7110
+                     ||.||||...||||||.|.| |||||   |||| |.||  ||||||    
+c23894837-238   6721 GCATCCTATGTTTCCTTCATGCACCT---AGAC-TCCA--TATGTC----   6760
+
+26087429-2609   7111 CATTTCCTATTTTTGGAAGAGGACTCCT-TAAATTTGGGGGACTTACATG   7159
+                        |.|.||       |||||  |.||| |||.|||.|.|||  ||||||
+c23894837-238   6761 ---TACGTA-------AAGAG--CCCCTCTAAGTTTAGTGGA--TACATG   6796
+
+26087429-2609   7160 ATTCATTTTAACATCTGAGAAAAGCTTTGAAC------CCTGGGACGTGG   7203
+                     ||||.|||..|||||||| |.|||.|.|||||      ||.||||   .|
+c23894837-238   6797 ATTCGTTTCCACATCTGA-AGAAGTTGTGAACCTTCATCCGGGGA---TG   6842
+
+26087429-2609   7204 CT-AGTCATAACCTT--ACCAGATTTTTACACATGTATC----TATGCAT   7246
+                     || |..||||  |||  .|||||.||||.|||.|.||||    .||.|| 
+c23894837-238   6843 CTCACACATA--CTTGAGCCAGAATTTTTCACCTATATCCTAGAATCCA-   6889
+
+26087429-2609   7247 TTTCTGGACCCGTTCAACTTTTCCTTTGAATCCTCTCTCTGTGTTACCCA   7296
+                          ||||||..||||||          ||||||..||  |||||...|
+c23894837-238   6890 -----GGACCCACTCAACT----------ATCCTCCATC--TGTTATAGA   6922
+
+26087429-2609   7297 GTAACTCATCTGTCACCAAGCCTTGGGGATTCTTCCATCTGATTGTGATG   7346
+                     ||.||||.||||||||||.|||.||.....|||.||||..||.|||.||.
+c23894837-238   6923 GTGACTCCTCTGTCACCATGCCCTGACTTCTCTGCCATTGGAGTGTTATA   6972
+
+26087429-2609   7347 TGAGTTG---------CACAGCTATGAAGGCTGTACAC-----TGCACGA   7382
+                     | |..||         .|.|||.||||||||  |||||     ||||  |
+c23894837-238   6973 T-ATATGGATCATCAATAAAGCCATGAAGGC--TACACAACTGTGCA--A   7017
+
+26087429-2609   7383 ATGGAAGAGGCACCTGTCCCAGAAAAAGCATCATGGCTATCTGTGGGTAG   7432
+                     .|.||.||..|||| .||..||||||.|     |.|.|.|.||||.|||.
+c23894837-238   7018 CTTGAGGAATCACC-CTCGGAGAAAATG-----TAGATGTTTGTGTGTAT   7061
+
+26087429-2609   7433 TATGATGG----GTGTTTTTA---GCAGGTAGGAGGCAAA--TATCTTGA   7473
+                     .|..||||    |||||..||   |||         ||||  |..|||||
+c23894837-238   7062 AACAATGGCTCTGTGTTCATATCTGCA---------CAAAGGTGACTTGA   7102
+
+26087429-2609   7474 AAGGGGTTGTGAAGAGGTGTTTTTTCTAATTGGCATGAAGGTGTCATACA   7523
+                         ||||.|.|| ||||        |||            |.|||||.|
+c23894837-238   7103 ----GGTTTTCAA-AGGT--------TAA------------TATCATAGA   7127
+
+26087429-2609   7524 GATTTGCAAAGTTTA-ATGGTGCCTTCATTTGGGATGCTACTCTAGTATT   7572
+                     .||.||      |.| |||.|||||  ||    ||||             
+c23894837-238   7128 CATCTG------TGACATGATGCCT--AT----GATG-------------   7152
+
+26087429-2609   7573 CCAGACCTGAAGAATCACAATAATTTTCTACCTGGTCTCTCCTTGTTCT-   7621
+                                                 ||||  .|||||||||| ||| 
+c23894837-238   7153 ----------------------------TACC--CTCTCTCCTTG-TCTC   7171
+
+26087429-2609   7622 GATAATGAAAATTATGATAAGGATGATAAAAGCACTTACTTCGTGTCCGA   7671
+                     ||.|||||||||..||  ||.|||.||.|.|                   
+c23894837-238   7172 GAAAATGAAAATGGTG--AACGATTATCATA-------------------   7200
+
+26087429-2609   7672 CTCTTCTGAGCACCTACTTACATGCATTACTGCATGCACTTCTTACAATA   7721
+                                          |||.|.|...||.|||||||.|       
+c23894837-238   7201 ---------------------ATGAAGTGTGGCTTGCACTTGT-------   7222
+
+26087429-2609   7722 ATTCTATGAGATAGGTACTATTATCCCCATTTCTTTTTTAAATGAAGAAA   7771
+                         |.||||                                        
+c23894837-238   7223 ----TCTGAG----------------------------------------   7228
+
+26087429-2609   7772 GTGAAGTAGGCCGGGCACGGTGGCTCACGCCTGTAAT---CCCAGCACTT   7818
+                       |||||               |||||     .||||   |.|.||.|| 
+c23894837-238   7229 --GAAGT---------------GCTCA-----ATAATATACTCTGCTCT-   7255
+
+26087429-2609   7819 TGGGAGGCCAAAGCGGGTGGATCACGAGGTCAGGAGATCGAGACCATCCT   7868
+                                        ||||||                  ||     
+c23894837-238   7256 -------------------GATCAC------------------CC-----   7263
+
+26087429-2609   7869 GGCTAACATGGTGAAACCCCATCTCTAATAAAAATACAAAAAATTAGCTG   7918
+                      |||||                             |||.|||        
+c23894837-238   7264 -GCTAA-----------------------------ACATAAA--------   7275
+
+26087429-2609   7919 GGCGTGGTGGCAGACGCCTGTAGTCCCAGCTAC-TCGGAAGGCTGAGGCA   7967
+                      ||.||            |||||        || ||      ||||||  
+c23894837-238   7276 -GCATG------------TGTAG--------ACATC------CTGAGG--   7296
+
+26087429-2609   7968 GGAGAATGGCATGAACCCAGGAGGCAGAGCTTGCAGTGAGCCGAGTTTGC   8017
+                     ||             .|.||||            ||||    ||..||  
+c23894837-238   7297 GG-------------TCTAGGA------------AGTG----GAAATT--   7315
+
+26087429-2609   8018 GCCA----CTGCACTCCAGCCTAGGTGACAGAGTGAGACTCCATCTCAAA   8063
+                        |    |||||      ||.|.||             |||.||||   
+c23894837-238   7316 ---ATTATCTGCA------CCCATGT-------------TCCTTCTC---   7340
+
+26087429-2609   8064 AAAATAAAAATAAAAAT-AAAAAAATGAAAA------AAAAAAGAAAGTG   8106
+                               |..|.|| .||||..||||||      ||..|        
+c23894837-238   7341 ----------TGTAGATGCAAAAGGTGAAAACTCTCTAACCA--------   7372
+
+26087429-2609   8107 AAGTATAGAGTATCTCATAGTTTGTCAGTGAT--AGAA--ACAGGTTTCA   8152
+                                  ||||       .|||.|||  ||||  ||||.|.|..
+c23894837-238   7373 -------------CTCA-------CCAGAGATACAGAAAGACAGCTGTAG   7402
+
+26087429-2609   8153 AACTCAGTCAATCTGACCGTTTGATACA-TCTCAGACACCA--CTACATT   8199
+                     ||.|  |.||..|||.|..||.|||||| .|||.| |||||  |.||   
+c23894837-238   7403 AAAT--GCCATCCTGGCTCTTAGATACACCCTCTG-CACCACCCGAC---   7446
+
+26087429-2609   8200 CAGTAGTTTAGATGCCTAGAAT-AAAT-AGAGAAGGAAGGAGATGGCTCT   8247
+                             ||.|||..|.|.|| |||| ||.|.||.|||.|||||||.||
+c23894837-238   7447 --------TATATGAGTGGCATGAAATGAGTGGAGAAAGAAGATGGCCCT   7488
+
+26087429-2609   8248 TCTCTTGTCTCATTGTGTTTCTTCTGAGTGAGCTTGAATCACATGAAGGG   8297
+                     |.|||||||||.|.|.||||||..|.||||||.||||..||||.||.|||
+c23894837-238   7489 TTTCTTGTCTCCTGGGGTTTCTCTTCAGTGAGTTTGACCCACAAGATGGG   7538
+
+26087429-2609   8298 GAACAGCAG-AAAACAACCAACTGATCCTCAGCTGTCATGTTTCCTTTAA   8346
+                     .||.|||.| .|||.|..||.|.| |||||||||.|||.|..||||||..
+c23894837-238   7539 AAATAGCTGCCAAATACTCACCAG-TCCTCAGCTATCAGGAATCCTTTCC   7587
+
+26087429-2609   8347 AAGTCCCTGAAGG--AAGGTCCTGGAATGTGACTCCCTTGCTCCTCTGTT   8394
+                     ||||   |..|||  ||||||..||  ||||                   
+c23894837-238   7588 AAGT---TAGAGGGAAAGGTCAGGG--TGTG-------------------   7613
+
+26087429-2609   8395 GCTCTCTTTGGCATTCA---TTTCTTTGGACCCTACGCAAGGACTGTAAT   8441
+                         ||||    |.|||   |||||                       ||
+c23894837-238   7614 ----TCTT----AGTCAGGGTTTCT-----------------------AT   7632
+
+26087429-2609   8442 TGGTGGGGACAGCTAGTGGCCCTGCTGGGCTTCACACACGGTGTCCTCCC   8491
+                     |                   ||||        .|||.||           
+c23894837-238   7633 T-------------------CCTG--------AACAAAC-----------   7644
+
+26087429-2609   8492 TAGGCCAGTGCCTCTGGAGTCAGAACTCTGGTGGTATTTCCCTCAATGAA   8541
+                                       .|||..||                 ||| |||
+c23894837-238   7645 ------------------ATCATGAC-----------------CAA-GAA   7658
+
+26087429-2609   8542 G-----TGGAGTAAGCTCTCTCATTTTGAGATGGTATAATGGAAGCCACC   8586
+                     |     |||||  ||            ||.|.|||.||.|          
+c23894837-238   7659 GCAAGTTGGAG--AG------------GAAAGGGTTTATT----------   7684
+
+26087429-2609   8587 AAGTGGCTTAGAGGATGCCCAGGTCCTTCCATGGAGCCACTGGGGTTCCG   8636
+                        .||||||.|             |||||||      ||||..|||   
+c23894837-238   7685 ---CGGCTTACA-------------CTTCCAT------ACTGTTGTT---   7709
+
+26087429-2609   8637 GTGCACATTAAAAAAAAAATCTAACCAGGACATTCAGGAATTGCTAGATT   8686
+                          |||||..||            |||| |.||||||.|         
+c23894837-238   7710 -----CATTACCAA------------AGGA-AGTCAGGACT---------   7732
+
+26087429-2609   8687 CTGGGAAATCAGTTCACCATGTTCA-AAAG-AGTCTTTTTTTTTTTTTTG   8734
+                        ||||.|||    |.|| |.||| |||| ||                |
+c23894837-238   7733 ---GGAACTCA----AGCA-GGTCAGAAAGCAG----------------G   7758
+
+26087429-2609   8735 AGACTCTATTGCCCAGGC--TGGAGTGCAATGGCATGATCTCGGCTCACT   8782
+                     ||   ||..|||..|.||  ||||       ||.|||.|||..|||    
+c23894837-238   7759 AG---CTGATGCAGAAGCCATGGA-------GGGATGTTCTTTGCT----   7794
+
+26087429-2609   8783 GTAACCTCTGCCTCCCAGGTTCAAGCGATTCTCCTG----TCTCAGCCT-   8827
+                                      ||||    .|.||||||||    .|||||||| 
+c23894837-238   7795 -----------------GGTT----TGCTTCTCCTGGCTTGCTCAGCCTG   7823
+
+26087429-2609   8828 -------------CCCAAGTAGCTGGGATTACAGGCGTGCACCACCATGC   8864
+                                  ||||||                     ||.|||| ||
+c23894837-238   7824 CTCTCTTATAGAACCCAAG---------------------ACTACCA-GC   7851
+
+26087429-2609   8865 CCGGCTAATTTTTGTATTTTTAGTAGAGACAGGGTTTCACC----ATGTT   8910
+                     ||                        |||.|.|||..||||    |.|  
+c23894837-238   7852 CC------------------------AGAGATGGTCCCACCCACAAGG--   7875
+
+26087429-2609   8911 GGCCAGGCTGGTCTCGAACTCTCCTGACCTCGTGATCCGCCTGCCTCGGC   8960
+                     ||||        |||            ||.|.|||               
+c23894837-238   7876 GGCC--------CTC------------CCCCTTGA---------------   7890
+
+26087429-2609   8961 CTCCCAAAGTGCTGAGA----TTACAGGTG--------TGAGCCA---CC   8995
+                      ||.|.||.||..||.|    ||||||.||        .|||.||   ||
+c23894837-238   7891 -TCACTAATTGAGGAAATGCCTTACAGTTGGATCTCATGGAGGCATTTCC   7939
+
+26087429-2609   8996 CTGCCCAGCCGTCAA---AAGAGTCTTAATAT---ATATATCCAGATGGC   9039
+                                ||||   |||...|||..|.|   |||..|||||.||  
+c23894837-238   7940 -----------TCAACTGAAGTTCCTTTCTCTGTAATAACTCCAGCTG--   7976
+
+26087429-2609   9040 ATGT---GTTTACTTTATGTTACTACATGCACTTGGCTGCATAAATGTGG   9086
+                      |||   |||.||           ||| ..|||.|.|.|.|.|    .||
+c23894837-238   7977 -TGTCAAGTTGAC-----------ACA-AAACTAGCCAGTACA----GGG   8009
+
+26087429-2609   9087 TACAAGCATTCTGTCTTGAAGGGCAGGTG-CTTCAGGATACCATATACAG   9135
+                     |.||||.|                  ||| ||.|            ||.|
+c23894837-238   8010 TGCAAGTA------------------GTGACTCC------------ACTG   8029
+
+26087429-2609   9136 CTCAGAAGTTT----CTTCTTTAGGCATTAAATTTTAGCAAAGATATCTC   9181
+                     |.||..|||.|    ||||.|..|.|||                      
+c23894837-238   8030 CCCACCAGTCTCCCGCTTCCTCTGACAT----------------------   8057
+
+26087429-2609   9182 ATCTCTTCTT----TTAAACCATTTTCTTTTTTTGTGGTTAGAAAAGTTA   9227
+                     ||..|||.||    ||      .|||.|||.|||||           ||.
+c23894837-238   8058 ATGGCTTGTTGTTGTT------GTTTGTTTGTTTGT-----------TTT   8090
+
+26087429-2609   9228 TGTAGAAAAAAGTAAATGTGATTTACGCTCATTGTAGAAAAGCTATAAAA   9277
+                     |||         |||||.|.|||             .||||||       
+c23894837-238   8091 TGT---------TAAATTTCATT-------------AAAAAGC-------   8111
+
+26087429-2609   9278 TGAATACAATTAAAGCTGTTATTTAATTAGCCAGTGAAAAACTATTAACA   9327
+                                               |||||          ||||     
+c23894837-238   8112 --------------------------TTAGC----------CTAT-----   8120
+
+26087429-2609   9328 ACTTGTCTATTACCTGTTAGTATTATTGTTGCATTAAAA----ATGCATA   9373
+                       .|||||..||||                   .|.|||    ||||.|.
+c23894837-238   8121 --CTGTCTGGTACC-------------------CTCAAAGCTGATGCCTC   8149
+
+26087429-2609   9374 T--------ACTTTAATAAATGTATATTGTATTGTATACTGCA--TGATT   9413
+                     |        ||.|||  ||.||   ||||...||      |||  .||  
+c23894837-238   8150 TGGATCAGAACCTTA--AAGTG---ATTGCCCTG------GCAGCCGA--   8186
+
+26087429-2609   9414 TTATTGAAGTTCTTGTTCATCTTGTGTATATACTTAATCGCTTTGTCATT   9463
+                          |||  || |||..||| |||..||   |||||       |.||.|
+c23894837-238   8187 -----GAA--TC-TGTCAATC-TGTCAAT---CTTAA-------GGCAGT   8217
+
+26087429-2609   9464 ---TTGGAGACATTTATTTTGCTTCTAATTTCTTTACATTTTGTCTTACG   9510
+                        .||||..|..|.||||.||||                         |
+c23894837-238   8218 AGGATGGAAGCTGTCATTTGGCTT-------------------------G   8242
+
+26087429-2609   9511 GAATATTTTCATTCAACTGTGGTAGCCGAATTAATCGTGTTTCTTCACTC   9560
+                     ||                         |||||..|.|.|||.||      
+c23894837-238   8243 GA-------------------------GAATTCTTGGAGTTGCT------   8261
+
+26087429-2609   9561 TAGGGACATTGTCGT----CTAAGTTGTAAGACATTGGTTATTTTACCAG   9606
+                       |||     |||.|    ||           |||||.|.|||.|    |
+c23894837-238   8262 --GGG-----GTCCTGCTGCT-----------CATTGTTAATTGT----G   8289
+
+26087429-2609   9607 CAAACCATTCTGAAAGCATATGACAAATTATTTCTCTCTTAATATCTTAC   9656
+                     ||   ||||.|.|||.|      |||      |||               
+c23894837-238   8290 CA---CATTTTAAAATC------CAA------TCT---------------   8309
+
+26087429-2609   9657 TATACTGAAAGCAGACTGCTATAAGGCTTCACTTACTCTTCTACCTCATA   9706
+                                 |||                         |.||||    
+c23894837-238   8310 ------------AGA-------------------------CAACCT----   8318
+
+26087429-2609   9707 AGGAATATGTTACAATTAATTTATTAGGTAAGCATTTGTTTTATATTGGT   9756
+                     ||         |||      |||.|||                       
+c23894837-238   8319 AG---------ACA------TTACTAG-----------------------   8330
+
+26087429-2609   9757 TTTATTTCACCTGGGCTGAGATTTCAAGAAACACCCCAGTCTTCACAGTA   9806
+                        ||||||               |||                      |
+c23894837-238   8331 ---ATTTCA---------------CAA----------------------A   8340
+
+26087429-2609   9807 ACACATTTCACTAACACATTTACTAAACATCAGCAACTGTGGCCTGTTAA   9856
+                     |.|||||         |||   ||||                  ||||||
+c23894837-238   8341 ATACATT---------CAT---CTAA------------------TGTTAA   8360
+
+26087429-2609   9857 TTTTTTTAATAGAAATTTTAAGTCCTCATTTTCTTTCGGTGTTTTTTAAG   9906
+                                 |||..|.||| |||            |||.||     |
+c23894837-238   8361 ------------AAAGGTCAAG-CCT------------GTGCTT-----G   8380
+
+26087429-2609   9907 CTTAATTTTTCTGGCTTTATTCATAAATTCTTAAGGTCAACTACATTTGA   9956
+                     |   ||.|||.||..|.|||                    .|||||.|| 
+c23894837-238   8381 C---ATGTTTGTGTGTGTAT--------------------ATACATCTG-   8406
+
+26087429-2609   9957 AAAATCAAAGACCTGCATTTTAAATTCTTATTCACCTCTGGCAAAACCAT  10006
+                                                         ||||          
+c23894837-238   8407 ------------------------------------TCTG----------   8410
+
+26087429-2609  10007 TCACAAACCATGGTAGTAAAGAGAAGGGTGACACCTGGTGGCCATAGGTA  10056
+                             ||||            |||.|||      |||..||.|  ||
+c23894837-238   8411 --------CATG------------AGGATGA------GTGTTCACA--TA   8432
+
+26087429-2609  10057 AATGTACCACG-GTGGTCCGGTGACCAGAGATGCA---GCGCTGAGGGTT  10102
+                     ..||| .|||| ||                |||||   |.| ||.|||  
+c23894837-238   8433 TGTGT-GCACGTGT----------------ATGCACATGTG-TGTGGG--   8462
+
+26087429-2609  10103 TTCCT-----------GAAGGTAAAGGAATAAAGAATGGGTGGAGGGGCG  10141
+                     .||||           ||.||.|                         |.
+c23894837-238   8463 CTCCTCTCTCCACCCGGATGGCA-------------------------CA   8487
+
+26087429-2609  10142 TGCACTGGAAATCACTTGTAGAGAAAAGCC-CCTGAAAATTTGAGAAAAC  10190
+                     |||        ||||||           || |||            ||||
+c23894837-238   8488 TGC--------TCACTT-----------CCTCCT------------AAAC   8506
+
+26087429-2609  10191 AAACAAGAAACTACTTACCAGC----------TATTTGAATT---GCTGG  10227
+                     |.||        |.||.||.||          ||  ||||||   .||.|
+c23894837-238   8507 ACAC--------ATTTGCCTGCGTCTCCGTGGTA--TGAATTCCATCTTG   8546
+
+26087429-2609  10228 AATCACAGGCCATTGCTGAGCTGCCTGAACTGGGAACACAACAGAAGGAA  10277
+                     ||.|.||   ||         |||||               |||      
+c23894837-238   8547 AAACCCA---CA---------TGCCT---------------CAG------   8563
+
+26087429-2609  10278 AACAAA-----CCA----CTCTGATAATCATTGAGTCAAGTACAGCAGGT  10318
+                      ||.||     |||    ||.|.||.|.||.|||.|              
+c23894837-238   8564 -ACCAATGGCTCCAATTTCTTTAATGAACACTGAAT--------------   8598
+
+26087429-2609  10319 GATTGAGGACTGCTGAGAGGTACAGGCCAAAATTCTTATG----TTGTAT  10364
+                       ||||     |||||||..|      |||..||.||.||    ||||||
+c23894837-238   8599 --TTGA-----GCTGAGACCT------CAACCTTTTTGTGACCTTTGTAT   8635
+
+26087429-2609  10365 TATAATAATGTCATCTTATAATACTGTCAGTATTTTATAAAACATTCTTC  10414
+                     |||                 .|||||       |||.|.||| |||    
+c23894837-238   8636 TAT-----------------TTACTG-------TTTGTGAAA-ATT----   8656
+
+26087429-2609  10415 ACAAACTCACACACATTTAAAAACAAAACACTGTCTCTAAAATCCCCAAA  10464
+                                   |..||..||.|||           |||||   ||||
+c23894837-238   8657 --------------AGGTAGGAAAAAA-----------AAAAT---CAAA   8678
+
+26087429-2609  10465 TTTTTCATAAACTCAGTTT----------TAAACTAACTTTTTTTCAAAC  10504
+                     .||||.||    |||.|||          |||||..|.||         |
+c23894837-238   8679 ATTTTGAT----TCATTTTTGGAAATAGATAAACGTAGTT---------C   8715
+
+26087429-2609  10505 CACAATCTGATTT-AACAATGACTATCATTTAAATATTTCTGACTTTCAA  10553
+                     ||     |.|||| ..||||||                 .||||      
+c23894837-238   8716 CA-----TCATTTCCTCAATGA-----------------ATGAC------   8737
+
+26087429-2609  10554 ATTAAAGATTTTCACATGCAGGCTGATATTTGTAATTGTGATTCTCTCTG  10603
+                         ||||  ..|||..||||       .|||||  ||   ||.||||||
+c23894837-238   8738 ----AAGA--ACCACTAGCAG-------CTTGTA--TG---TTGTCTCTG   8769
+
+26087429-2609  10604 TA-GGCTTTGGGTATAATGTGTTCTTTTCCTTTTTTGCATCAGCGATTAA  10652
+                     || |.||.|....|.|.|||||.|                        ||
+c23894837-238   8770 TATGACTCTCCTCAAAGTGTGTGC------------------------AA   8795
+
+26087429-2609  10653 CTTCTACACTCTAACATGTAGAATGTTACTACAATATTAAAGTATTTTGT  10702
+                     ||..||.||    |||||                         ||||.||
+c23894837-238   8796 CTAATAAAC----ACATG-------------------------ATTTGGT   8816
+
+26087429-2609  10703 ATGACAATTTTATTTGAAAGCCTAGGATGCGTTGACATCCTGCATGCATT  10752
+                     |.| ||                                            
+c23894837-238   8817 AAG-CA--------------------------------------------   8821
+
+26087429-2609  10753 TATTACTTGATATGCATGCATTCTGGTATCTCAAGCATTCTATTTCTGAG  10802
+                                                                       
+c23894837-238   8822 --------------------------------------------------   8821
+
+26087429-2609  10803 TAATTGTTTAAGGTGTAGAAGAGATAGATATGGTGGATTTGGAGTTGATA  10852
+                                                                       
+c23894837-238   8822 --------------------------------------------------   8821
+
+26087429-2609  10853 CTTATATATTTTCTATTTCTTGGATGGATGAATTTGTACATTAAAAGTTT  10902
+                                                                       
+c23894837-238   8822 --------------------------------------------------   8821
+
+26087429-2609  10903 TCCATGGCAGAAA  10915
+                                  
+c23894837-238   8822 -------------   8821
+
+
+#---------------------------------------
+#---------------------------------------
