@@ -1,0 +1,21 @@
+# SRA / raw data (очень большие)
+data/SRR*/
+fasterq.tmp*/
+
+# sequencing raw formats
+*.fastq
+*.fq
+*.fastq.gz
+*.sra
+
+# alignment outputs
+*.sam
+*.bam
+*.bai
+*.vcf
+
+# temporary
+*.tmp
+
+# big binaries
+cromwell.jar

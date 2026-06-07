@@ -1,0 +1,10 @@
+Parsing results/flagstat.txt
+
+Total reads   : 1099585
+Mapped reads  : 1097662
+Mapped %      : 99.83%
+
+Threshold     : 90%
+
+QC RESULT     : OK ✔
+EXIT CODE     : 0

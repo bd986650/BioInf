@@ -1,0 +1,17 @@
+FastQC v0.12.1
+Analysis started: reads_1.fq
+Encoding detected: Sanger / Illumina 1.9
+
+Per base sequence quality: PASS
+Per sequence GC content: PASS
+Adapter content: WARN
+
+Analysis complete: reads_1.fq
+
+----------------------------------------
+
+Analysis started: reads_2.fq
+Per base sequence quality: PASS
+Adapter content: PASS
+
+Analysis complete: reads_2.fq

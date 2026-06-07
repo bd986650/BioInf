@@ -1,0 +1,36 @@
+[2026-06-07 12:10:01] START PIPELINE
+
+[STEP 1] FASTQC
+fastqc data/reads_1.fq data/reads_2.fq -o results/
+Started analysis of reads_1.fq
+Analysis complete for reads_1.fq
+Started analysis of reads_2.fq
+Analysis complete for reads_2.fq
+FASTQC DONE
+
+[STEP 2] ALIGNMENT (BWA MEM)
+bwa mem reference/ecoli.fa data/reads_1.fq data/reads_2.fq > results/sample.sam
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 100000 sequences
+[M::mem_process_seqs] processed 100000 sequences
+
+ALIGNMENT DONE
+
+[STEP 3] SAMTOOLS VIEW
+samtools view -bS results/sample.sam > results/sample.bam
+BAM CREATED
+
+[STEP 4] SAMTOOLS SORT
+samtools sort results/sample.bam -o results/sample.sorted.bam
+Sorting... done
+
+[STEP 5] SAMTOOLS INDEX
+samtools index results/sample.sorted.bam
+Index created
+
+[STEP 6] FLAGSTAT
+samtools flagstat results/sample.sorted.bam > results/flagstat.txt
+FLAGSTAT DONE
+
+[2026-06-07 12:12:44] PIPELINE FINISHED SUCCESSFULLY
+STATUS: OK

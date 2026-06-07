@@ -1,0 +1,46 @@
+.
+├── cromwell.jar
+├── data
+│   ├── assembly_data_report.jsonl
+│   ├── data_summary.tsv
+│   ├── dataset_catalog.json
+│   ├── GCA_000005845.2
+│   │   └── GCA_000005845.2_ASM584v2_genomic.fna
+│   ├── SRR2584863_1.fastq
+│   └── SRR2584863_2.fastq
+├── logs
+│   ├── fastqc.log
+│   ├── qc.log
+│   └── run_pipeline.log
+├── project-structure.txt
+├── README.md
+├── reference
+│   ├── ecoli.fa
+│   ├── ecoli.fa.amb
+│   ├── ecoli.fa.ann
+│   ├── ecoli.fa.bwt
+│   ├── ecoli.fa.fai
+│   ├── ecoli.fa.pac
+│   └── ecoli.fa.sa
+├── results
+│   ├── flagstat.txt
+│   ├── qc.txt
+│   ├── sample.bam
+│   ├── sample.sam
+│   ├── sample.sorted.bam
+│   ├── sample.vcf
+│   ├── SRR2584863_1_fastqc.html
+│   ├── SRR2584863_1_fastqc.zip
+│   ├── SRR2584863_2_fastqc.html
+│   └── SRR2584863_2_fastqc.zip
+├── scripts
+│   ├── mapping_qc.sh
+│   ├── parse_flagstat.sh
+│   └── run_pipeline.sh
+└── wdl
+    ├── cromwell.conf
+    ├── hello.wdl
+    ├── inputs.json
+    └── mapping_pipeline.wdl
+
+8 directories, 36 files

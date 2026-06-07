@@ -1,0 +1,5 @@
+{
+    "MappingPipeline.ref": "reference/ecoli.fa",
+    "MappingPipeline.r1": "data/SRR2584863_1.fastq",
+    "MappingPipeline.r2": "data/SRR2584863_2.fastq"
+  }
