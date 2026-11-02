@@ -1,0 +1,1729 @@
+[
+  {
+    "file": "ensembl_release.json",
+    "url": "https://rest.ensembl.org/info/data?content-type=application/json",
+    "method": "GET",
+    "payload": null,
+    "retrieved_at_utc": "2026-11-02T09:10:05.376982+00:00",
+    "response_headers": {
+      "Vary": "Content-Type, Origin",
+      "Content-Type": "application/json",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "Date": "Mon, 02 Nov 2026 09:09:12 GMT",
+      "X-RateLimit-Limit": "55000",
+      "X-RateLimit-Reset": "3048",
+      "X-Runtime": "0.059085",
+      "X-RateLimit-Period": "3600",
+      "X-RateLimit-Remaining": "54996",
+      "Content-Length": "18",
+      "Connection": "close"
+    },
+    "sha256": "86e87c46ae1a424702676493d024d0508ce60f6c951b0b2803ce10269e09c20c"
+  },
+  {
+    "file": "ensembl_rest.json",
+    "url": "https://rest.ensembl.org/info/rest?content-type=application/json",
+    "method": "GET",
+    "payload": null,
+    "retrieved_at_utc": "2026-11-02T09:10:06.195304+00:00",
+    "response_headers": {
+      "Vary": "Content-Type, Origin",
+      "Content-Type": "application/json",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "Date": "Mon, 02 Nov 2026 09:08:44 GMT",
+      "X-RateLimit-Limit": "55000",
+      "X-RateLimit-Reset": "3076",
+      "X-Runtime": "0.016249",
+      "X-RateLimit-Period": "3600",
+      "X-RateLimit-Remaining": "54996",
+      "Content-Length": "19",
+      "Connection": "close"
+    },
+    "sha256": "8d78789edb91c0e1e082879699af99c99ddf89d769b535a5f7320fd784519639"
+  },
+  {
+    "file": "vep.json",
+    "url": "https://rest.ensembl.org/vep/homo_sapiens/region?canonical=1&mane=1&hgvs=1&protein=1&numbers=1&transcript_version=1&variant_class=1",
+    "method": "POST",
+    "payload": {
+      "variants": [
+        "21 25592836 rs1135638 G A . . .",
+        "21 25592860 rs10576 T C . . .",
+        "21 25603925 rs7278284 C T . . .",
+        "21 25607440 rs61735760 C T . . .",
+        "21 32656885 rs114053718 A G . . .",
+        "21 32685836 rs114942253 C T . . .",
+        "21 37065706 rs16994704 T C . . .",
+        "21 37067340 rs73901833 T C . . .",
+        "21 38819624 rs113417859 C T . . .",
+        "21 43969150 rs79309256 C G . . .",
+        "21 43982389 rs114573236 A G . . .",
+        "22 17181903 rs7289170 A G . . .",
+        "22 19353405 rs34000365 G A . . .",
+        "22 19383643 rs61735928 G A . . .",
+        "22 19396916 rs116458396 G A . . .",
+        "22 19973143 rs115736959 G A . . .",
+        "22 19980020 rs1058399 G A . . .",
+        "22 19981448 rs2073748 G A . . .",
+        "22 19990695 rs116782322 G A . . .",
+        "22 23152491 rs114023206 C T . . .",
+        "22 23160934 rs5759611 G A . . .",
+        "22 24183535 rs9680526 T A . . .",
+        "22 30461386 rs2240345 A C . . .",
+        "22 30461461 rs5749104 A G . . .",
+        "22 30462162 rs115111929 A C . . .",
+        "22 30468542 rs115812777 C T . . .",
+        "22 30470253 rs115083767 G A . . .",
+        "22 30555417 rs115862749 G A . . .",
+        "22 31091807 rs114015937 G A . . .",
+        "22 31095309 rs3205187 G C . . .",
+        "22 33304411 rs34292743 G A . . .",
+        "22 33316147 rs115686643 G A . . .",
+        "22 33650610 rs63446460 C G . . .",
+        "22 38699844 rs6001200 G C . . .",
+        "22 39044144 rs5750728 C T . . .",
+        "22 39044171 rs114704208 A T . . .",
+        "22 39231644 rs116555717 T C . . .",
+        "22 39231816 rs17565 T C . . .",
+        "22 39374483 rs114689408 C T . . .",
+        "22 39374495 rs35429467 G A . . .",
+        "22 39743860 rs114948690 A G . . .",
+        "22 39744223 rs115673469 A G . . .",
+        "22 39744238 rs115302874 A G . . .",
+        "22 39861847 rs114714334 C T . . .",
+        "22 39862000 rs75296456 A G . . .",
+        "22 40019319 rs115365592 C T . . .",
+        "22 40019964 rs12330063 G T . . .",
+        "22 44891338 rs115264708 T C . . .",
+        "22 44916394 rs115694109 G A . . .",
+        "22 44920488 rs114043304 A G . . ."
+      ]
+    },
+    "retrieved_at_utc": "2026-11-02T09:10:19.278782+00:00",
+    "response_headers": {
+      "Vary": "Content-Type",
+      "Content-Type": "application/json",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "Date": "Mon, 02 Nov 2026 09:10:18 GMT",
+      "X-RateLimit-Limit": "55000",
+      "X-RateLimit-Reset": "2982",
+      "X-Runtime": "5.691706",
+      "Connection": "close",
+      "X-RateLimit-Period": "3600",
+      "X-RateLimit-Remaining": "54999",
+      "Content-Length": "683585"
+    },
+    "sha256": "7c838cb7dd0059dc66dc9517159986938b19cd237da53fbe6b372d1525599317"
+  },
+  {
+    "file": "clinvar_database_info.json",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi?db=clinvar&retmode=json",
+    "method": "GET",
+    "payload": null,
+    "retrieved_at_utc": "2026-11-02T09:10:19.868607+00:00",
+    "response_headers": {
+      "Date": "Mon, 02 Nov 2026 09:10:19 GMT",
+      "Server": "Finatra",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Referrer-Policy": "origin-when-cross-origin",
+      "Ncbi-Sid": "38F77C4AB9F88C28_FB32SID",
+      "Ncbi-Phid": "1D325ACC480F0CB50000424EC28F409C.1.1.m_1",
+      "Content-Type": "application/json; charset=UTF-8",
+      "Cache-Control": "private",
+      "X-Ratelimit-Limit": "3",
+      "X-Ratelimit-Remaining": "2",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Expose-Headers": "X-RateLimit-Limit,X-RateLimit-Remaining",
+      "Set-Cookie": "ncbi_sid=38F77C4AB9F88C28_FB32SID; domain=.nih.gov; path=/; expires=Tue, 02 Nov 2027 09:10:19 GMT",
+      "Vary": "Accept-Encoding",
+      "X-Ua-Compatible": "IE=Edge",
+      "X-Xss-Protection": "1; mode=block",
+      "Transfer-Encoding": "chunked",
+      "Via": "1.1 google",
+      "Alt-Svc": "clear",
+      "Connection": "close"
+    },
+    "sha256": "71a53c4b0d5ac3f48b48f373d4f4a2f03d547711831d4af2cc3fc86ad471d057"
+  },
+  {
+    "file": "clinvar_search_rs.json",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=clinvar&term=rs1135638%5BAll+Fields%5D+OR+rs10576%5BAll+Fields%5D+OR+rs7278284%5BAll+Fields%5D+OR+rs61735760%5BAll+Fields%5D+OR+rs114053718%5BAll+Fields%5D+OR+rs114942253%5BAll+Fields%5D+OR+rs16994704%5BAll+Fields%5D+OR+rs73901833%5BAll+Fields%5D+OR+rs113417859%5BAll+Fields%5D+OR+rs79309256%5BAll+Fields%5D+OR+rs114573236%5BAll+Fields%5D+OR+rs7289170%5BAll+Fields%5D+OR+rs34000365%5BAll+Fields%5D+OR+rs61735928%5BAll+Fields%5D+OR+rs116458396%5BAll+Fields%5D+OR+rs115736959%5BAll+Fields%5D+OR+rs1058399%5BAll+Fields%5D+OR+rs2073748%5BAll+Fields%5D+OR+rs116782322%5BAll+Fields%5D+OR+rs114023206%5BAll+Fields%5D+OR+rs5759611%5BAll+Fields%5D+OR+rs9680526%5BAll+Fields%5D+OR+rs2240345%5BAll+Fields%5D+OR+rs5749104%5BAll+Fields%5D+OR+rs115111929%5BAll+Fields%5D+OR+rs115812777%5BAll+Fields%5D+OR+rs115083767%5BAll+Fields%5D+OR+rs115862749%5BAll+Fields%5D+OR+rs114015937%5BAll+Fields%5D+OR+rs3205187%5BAll+Fields%5D+OR+rs34292743%5BAll+Fields%5D+OR+rs115686643%5BAll+Fields%5D+OR+rs63446460%5BAll+Fields%5D+OR+rs6001200%5BAll+Fields%5D+OR+rs5750728%5BAll+Fields%5D+OR+rs114704208%5BAll+Fields%5D+OR+rs116555717%5BAll+Fields%5D+OR+rs17565%5BAll+Fields%5D+OR+rs114689408%5BAll+Fields%5D+OR+rs35429467%5BAll+Fields%5D+OR+rs114948690%5BAll+Fields%5D+OR+rs115673469%5BAll+Fields%5D+OR+rs115302874%5BAll+Fields%5D+OR+rs114714334%5BAll+Fields%5D+OR+rs75296456%5BAll+Fields%5D+OR+rs115365592%5BAll+Fields%5D+OR+rs12330063%5BAll+Fields%5D+OR+rs115264708%5BAll+Fields%5D+OR+rs115694109%5BAll+Fields%5D+OR+rs114043304%5BAll+Fields%5D&retmode=json&retmax=1000",
+    "method": "GET",
+    "payload": null,
+    "retrieved_at_utc": "2026-11-02T09:10:20.413139+00:00",
+    "response_headers": {
+      "Date": "Mon, 02 Nov 2026 09:10:19 GMT",
+      "Server": "Finatra",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Referrer-Policy": "origin-when-cross-origin",
+      "Ncbi-Sid": "7F017840849446EA_0B71SID",
+      "Ncbi-Phid": "1D325ACC480F0CB50000514EC4861E5A.1.1.m_1",
+      "Content-Type": "application/json; charset=UTF-8",
+      "Cache-Control": "private",
+      "X-Ratelimit-Limit": "3",
+      "X-Ratelimit-Remaining": "1",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Expose-Headers": "X-RateLimit-Limit,X-RateLimit-Remaining",
+      "Set-Cookie": "ncbi_sid=7F017840849446EA_0B71SID; domain=.nih.gov; path=/; expires=Tue, 02 Nov 2027 09:10:20 GMT",
+      "Vary": "Accept-Encoding",
+      "X-Ua-Compatible": "IE=Edge",
+      "X-Xss-Protection": "1; mode=block",
+      "Transfer-Encoding": "chunked",
+      "Via": "1.1 google",
+      "Alt-Svc": "clear",
+      "Connection": "close"
+    },
+    "sha256": "88b06201eec40ff553befa63b4f006c97fb584ee28de7ba28764bf8ea3efea9e"
+  },
+  {
+    "file": "clinvar_search_coordinates.json",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=clinvar&term=%2821%5BCHR%5D+AND+25592836%5BCPOS%5D%29+OR+%2821%5BCHR%5D+AND+25592860%5BCPOS%5D%29+OR+%2821%5BCHR%5D+AND+25603925%5BCPOS%5D%29+OR+%2821%5BCHR%5D+AND+25607440%5BCPOS%5D%29+OR+%2821%5BCHR%5D+AND+32656885%5BCPOS%5D%29+OR+%2821%5BCHR%5D+AND+32685836%5BCPOS%5D%29+OR+%2821%5BCHR%5D+AND+37065706%5BCPOS%5D%29+OR+%2821%5BCHR%5D+AND+37067340%5BCPOS%5D%29+OR+%2821%5BCHR%5D+AND+38819624%5BCPOS%5D%29+OR+%2821%5BCHR%5D+AND+43969150%5BCPOS%5D%29+OR+%2821%5BCHR%5D+AND+43982389%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+17181903%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+19353405%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+19383643%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+19396916%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+19973143%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+19980020%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+19981448%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+19990695%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+23152491%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+23160934%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+24183535%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+30461386%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+30461461%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+30462162%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+30468542%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+30470253%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+30555417%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+31091807%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+31095309%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+33304411%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+33316147%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+33650610%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+38699844%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+39044144%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+39044171%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+39231644%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+39231816%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+39374483%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+39374495%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+39743860%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+39744223%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+39744238%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+39861847%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+39862000%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+40019319%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+40019964%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+44891338%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+44916394%5BCPOS%5D%29+OR+%2822%5BCHR%5D+AND+44920488%5BCPOS%5D%29&retmode=json&retmax=1000",
+    "method": "GET",
+    "payload": null,
+    "retrieved_at_utc": "2026-11-02T09:10:51.451379+00:00",
+    "response_headers": {
+      "Date": "Mon, 02 Nov 2026 09:10:51 GMT",
+      "Server": "Finatra",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Referrer-Policy": "origin-when-cross-origin",
+      "Ncbi-Sid": "7FFB7059472011A1_3658SID",
+      "Ncbi-Phid": "1D34A14D933F908500004462EC1FCC9F.1.1.m_1",
+      "Content-Type": "application/json; charset=UTF-8",
+      "Cache-Control": "private",
+      "X-Ratelimit-Limit": "3",
+      "X-Ratelimit-Remaining": "2",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Expose-Headers": "X-RateLimit-Limit,X-RateLimit-Remaining",
+      "Set-Cookie": "ncbi_sid=7FFB7059472011A1_3658SID; domain=.nih.gov; path=/; expires=Tue, 02 Nov 2027 09:10:51 GMT",
+      "Vary": "Accept-Encoding",
+      "X-Ua-Compatible": "IE=Edge",
+      "X-Xss-Protection": "1; mode=block",
+      "Transfer-Encoding": "chunked",
+      "Via": "1.1 google",
+      "Alt-Svc": "clear",
+      "Connection": "close"
+    },
+    "sha256": "b0f05ae371e251a854e008e149e1d27e2f20760134c912ede5e1b73ce04d0b64"
+  },
+  {
+    "file": "clinvar_summary.json",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=95166%2C158805%2C402527%2C478324%2C544554%2C709521%2C714835%2C714837%2C725856%2C777663%2C789860%2C789863%2C902052%2C1288334%2C1290187%2C2585196%2C3305447%2C3438982%2C3603868%2C3703120%2C3845024%2C4249268%2C4453387%2C4457471&retmode=json",
+    "method": "GET",
+    "payload": null,
+    "retrieved_at_utc": "2026-11-02T09:10:53.057058+00:00",
+    "response_headers": {
+      "Date": "Mon, 02 Nov 2026 09:10:51 GMT",
+      "Server": "Finatra",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Referrer-Policy": "origin-when-cross-origin",
+      "Ncbi-Sid": "EEDC5AB82315C2A1_4585SID",
+      "Ncbi-Phid": "1D33EB4B2988F6D5000051603B2F1287.1.1.m_1",
+      "Content-Type": "application/json; charset=UTF-8",
+      "Cache-Control": "private",
+      "X-Ratelimit-Limit": "3",
+      "X-Ratelimit-Remaining": "2",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Expose-Headers": "X-RateLimit-Limit,X-RateLimit-Remaining",
+      "Set-Cookie": "ncbi_sid=EEDC5AB82315C2A1_4585SID; domain=.nih.gov; path=/; expires=Tue, 02 Nov 2027 09:10:52 GMT",
+      "Vary": "Accept-Encoding",
+      "X-Ua-Compatible": "IE=Edge",
+      "X-Xss-Protection": "1; mode=block",
+      "Transfer-Encoding": "chunked",
+      "Via": "1.1 google",
+      "Alt-Svc": "clear",
+      "Connection": "close"
+    },
+    "sha256": "5bc31e2f217295a36b4d1deb5cf358f8249048c7730634d85d1315e4bea3212f"
+  },
+  {
+    "file": "clinvar.xml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=clinvar&id=95166%2C158805%2C402527%2C478324%2C544554%2C709521%2C714835%2C714837%2C725856%2C777663%2C789860%2C789863%2C902052%2C1288334%2C1290187%2C2585196%2C3305447%2C3438982%2C3603868%2C3703120%2C3845024%2C4249268%2C4453387%2C4457471&rettype=vcv&is_variationid=true&retmode=xml",
+    "method": "GET",
+    "payload": null,
+    "retrieved_at_utc": "2026-11-02T09:10:55.987840+00:00",
+    "response_headers": {
+      "Date": "Mon, 02 Nov 2026 09:10:54 GMT",
+      "Server": "Finatra",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Referrer-Policy": "origin-when-cross-origin",
+      "Ncbi-Sid": "43F30B403D1E15E5_10A1SID",
+      "Ncbi-Phid": "1D325ACC480F0CB500005B4F13F8E050.1.1.m_7",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Cache-Control": "private",
+      "X-Ratelimit-Limit": "3",
+      "X-Ratelimit-Remaining": "2",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Expose-Headers": "X-RateLimit-Limit,X-RateLimit-Remaining",
+      "Set-Cookie": "ncbi_sid=43F30B403D1E15E5_10A1SID; domain=.nih.gov; path=/; expires=Tue, 02 Nov 2027 09:10:54 GMT",
+      "Vary": "Accept-Encoding",
+      "X-Ua-Compatible": "IE=Edge",
+      "X-Xss-Protection": "1; mode=block",
+      "Transfer-Encoding": "chunked",
+      "Via": "1.1 google",
+      "Alt-Svc": "clear",
+      "Connection": "close"
+    },
+    "sha256": "33aaf50d099b553d65362ebf6edf23d4c87cb4c1f1cf65df740247bc5fce1d1b"
+  },
+  {
+    "file": "gnomad/21-25592836-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "21-25592836-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:11:00.741370+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:11:00 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "26c419ee-d933-41a2-86e5-4ca9442a7b32",
+      "ETag": "W/\"e2-d6m6Vx48Nq0MENMChWjEsNG9/Fk\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "789c3129577e2ae7acb63b765e5de13a9d8d752ab5512b8e55a757d9c619cb1f"
+  },
+  {
+    "file": "gnomad/21-25592860-T-C.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "21-25592860-T-C"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:11:09.451832+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:11:09 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "63f98546-b2dd-47ed-9573-ec6df4011ed1",
+      "ETag": "W/\"e2-2lXCm9rlGZ/SCdDmpt80NSW9URc\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "7a2d48ce08bc89be18660c15233982ce55abec29124d5dcc730b685663e586b3"
+  },
+  {
+    "file": "gnomad/21-25603925-C-T.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "21-25603925-C-T"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:11:11.970954+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:11:11 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "dcbfaff0-de33-43b3-a200-84a9e4e398d6",
+      "ETag": "W/\"e1-fhr2KufX1Bfxzh8/u0NU7PNixBM\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "652cc404b3db5c5fa5ba8c31ed3977087a144b6f51e706e131ad9427c087c0fa"
+  },
+  {
+    "file": "gnomad/21-25607440-C-T.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "21-25607440-C-T"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:11:29.118302+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:11:29 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "a63983bd-2d75-423b-bf30-8817040ac2e7",
+      "ETag": "W/\"e2-a/Wy5pgLhESICky41CLi0tF874I\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "13b5f69c7cada6bcd542ddb6e87bf4d96e37fa64d0488c548988a5c588ea152d"
+  },
+  {
+    "file": "gnomad/21-32656885-A-G.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "21-32656885-A-G"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:11:32.137846+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:11:31 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "224",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "84b0f60a-6ebe-4b9b-b759-1886a7ee36d4",
+      "ETag": "W/\"e0-AeM2WXA+SBSHRBFijzk4Mnj9m5Y\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "54c91d7608bc65735bd8cd163cd1410b3ef217521e7725729fc1b76869494641"
+  },
+  {
+    "file": "gnomad/21-32685836-C-T.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "21-32685836-C-T"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:11:33.872509+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:11:33 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "72b775c4-3edb-42f0-b6f5-6012ae025e76",
+      "ETag": "W/\"e2-YFrNPyhyN/R4bxgF03LJtzmUtSw\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "2b93874dc5180edeb13fd7c1ebd777cb91168a89868b6ce92a7d3b60c075a138"
+  },
+  {
+    "file": "gnomad/21-37065706-T-C.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "21-37065706-T-C"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:11:37.181119+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:11:37 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "63635f3a-a1ba-45e8-b34d-16ff32c4da22",
+      "ETag": "W/\"e1-4DAjNR22cRXD2PhtHoumD3iXNbc\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "c637d3d2319a0df3791b56db65d50557b79aea8273bdfe7146662f6f73c14c54"
+  },
+  {
+    "file": "gnomad/21-37067340-T-C.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "21-37067340-T-C"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:11:47.710855+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:11:47 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "03e26082-16a1-4d21-8dea-4fa3c84b896f",
+      "ETag": "W/\"e2-rKHwY7eMBHHT819qviUH+rTWaTw\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "769ecb05dddfc3100e00d4239de1533e7b6a9d41f6a8a5400d8522b81f8eb984"
+  },
+  {
+    "file": "gnomad/21-38819624-C-T.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "21-38819624-C-T"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:11:51.445814+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:11:51 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "dfa791e4-4f11-4b03-8812-cdd4ea1d4fee",
+      "ETag": "W/\"e1-ERyU0lfDdfsdd8xhIVqDC8pX5B4\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "907373f3cb6cd77f155021d84123c026501701b636267c101e79a6005db52120"
+  },
+  {
+    "file": "gnomad/21-43969150-C-G.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "21-43969150-C-G"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:12:06.722819+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:12:06 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "8af7859d-28ad-4868-a2c6-f302602974f2",
+      "ETag": "W/\"e2-aX54kH6Km3TPPtMRxSW3BGnTC6Q\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "4fd14ba7e9ece38d60336f684c06c6c0075d42eee485df165f3b57a819fdb116"
+  },
+  {
+    "file": "gnomad/21-43982389-A-G.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "21-43982389-A-G"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:12:10.059558+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:12:09 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "209",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "3472c7bd-6707-493b-8810-bdea32fcb7b4",
+      "ETag": "W/\"d1-/2ovlFj7YTM19s/FrdW71OB4jqo\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "4c0c4b60b97997e78f1334e146561b20fe92daca57583776ae023818eba098f7"
+  },
+  {
+    "file": "gnomad/22-17181903-A-G.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-17181903-A-G"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:12:11.804806+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:12:11 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "224",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "a615a257-f979-4863-a8e9-4f996c6f4af4",
+      "ETag": "W/\"e0-6hN9b+rUGt2EEFNtd/4V5/11NUc\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "fc6bff52fa759058926904191c13f2870eb9442866abc321134d22af164925d9"
+  },
+  {
+    "file": "gnomad/22-19353405-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-19353405-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:12:29.827397+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:12:29 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "227",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "3f85c74b-a24f-44fd-9267-c108da569d73",
+      "ETag": "W/\"e3-PpxTtAlfds53igCD+F/T6So+N+U\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "381b38bb3c4d8aad4cebf66d1d1636c84503e468bf1d02c3261e89b3bbb3c35a"
+  },
+  {
+    "file": "gnomad/22-19383643-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-19383643-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:12:31.707402+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:12:31 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "224",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "5d55b6ce-926f-4b36-bb5d-79e6df96c225",
+      "ETag": "W/\"e0-vZdtCQRowt8Af/znn/yX+Dw4WnU\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "fe42a29423e6580150420b7ab5d1c5cf01d22d2636ecb392d22c4792b5777a63"
+  },
+  {
+    "file": "gnomad/22-19396916-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-19396916-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:12:36.683205+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:12:36 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "28b7fabc-f471-4080-aeab-dc97bc409894",
+      "ETag": "W/\"e2-gLIZH9NTiTkYt4SFEmTjjulEWZQ\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "d8c54ddab8c80da77d8f667656196972ffb2ebddc080c89392674095f9344301"
+  },
+  {
+    "file": "gnomad/22-19973143-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-19973143-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:12:59.512327+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:12:59 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "f0633481-45f2-477a-9158-b54f315e8291",
+      "ETag": "W/\"e1-WYuzOISvKSvhG6lurCkVRqTuCVk\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "7934ac1bff6fff8730c9d58678e773f68046e51a7c910cc90eb55ee0f89ec2e5"
+  },
+  {
+    "file": "gnomad/22-19980020-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-19980020-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:13:25.711425+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:13:25 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "e461ebbc-b620-447e-a8ab-cc62c77dc48a",
+      "ETag": "W/\"e1-kG8CEUi0qMwYkUgKglfggbKO9cM\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "74b1bf297391769607695350817835bdf44b6d7436c0930b7658a85a0b6fc1ac"
+  },
+  {
+    "file": "gnomad/22-19981448-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-19981448-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:13:50.321298+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:13:50 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "edb7bd9c-943a-48d5-b4da-044184bf2a12",
+      "ETag": "W/\"e1-Y/tI7dOrkiuMwCFVTZzUa2k16ag\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "da76f2177cb13cc5352daa3abe4f47a6b764aaa127e8445ade794cb918184182"
+  },
+  {
+    "file": "gnomad/22-19990695-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-19990695-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:14:08.675614+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:14:08 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "224",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "11d323bb-9312-40ed-b9c1-511e3421733d",
+      "ETag": "W/\"e0-9yY4d3YWsNTV6kCH6pZtMzUPAR8\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "b2663177b989f6c26243e3b074f20dc8bd1e5aed5744887339d661f43b764816"
+  },
+  {
+    "file": "gnomad/22-23152491-C-T.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-23152491-C-T"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:14:11.243000+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:14:11 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "3c60060e-e48f-467a-a66e-fa638b19a756",
+      "ETag": "W/\"e2-z6Kfpll+0bMrtgyWuKo8PvXJlGI\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "d2dde2f40eb8d7084cfc8a4946e08d5a44aa15164ec585336f202a8fe441e4af"
+  },
+  {
+    "file": "gnomad/22-23160934-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-23160934-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:14:17.101718+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:14:17 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "5caedcc0-eaa9-46ac-b9ed-d621c5fac4c7",
+      "ETag": "W/\"e1-ZadoMe+tXnr1U7H0Io3bOn5GlDI\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "95fc70f48033fe34242976191669a9cd8aebb3f3201e663303029449c5657ed2"
+  },
+  {
+    "file": "gnomad/22-24183535-T-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-24183535-T-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:14:18.643977+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:14:18 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "9f081aa7-d64a-461c-8898-b1a57dbc2812",
+      "ETag": "W/\"e2-Qw8mzy0u70cBFZRGd2g1xp8EoWk\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "cbeae9ce95c8130bd02fc6d28d8cad3a4b7751894558647d75355344506639dd"
+  },
+  {
+    "file": "gnomad/22-30461386-A-C.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-30461386-A-C"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:14:22.565478+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:14:22 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "8a291db3-275b-43ef-ac35-5da66ea63c9c",
+      "ETag": "W/\"e1-HzujWB1fRdXPb2FlXH7SiuVFK2M\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "593af8df7670e8009617e59700490bac2ee33f55381a3cbf8c83077256d449e6"
+  },
+  {
+    "file": "gnomad/22-30461461-A-G.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-30461461-A-G"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:14:30.667435+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:14:30 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "355e18d1-203b-498d-a30b-71a30de599d4",
+      "ETag": "W/\"e1-43m+inE0KyaYvZMRdMDyyg+cXlQ\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "f3041c101e586b6b6734d2faf65f9b6500aa331e3f71a06defe433ec180ee807"
+  },
+  {
+    "file": "gnomad/22-30462162-A-C.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-30462162-A-C"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:14:33.865905+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:14:33 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "163",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "70a5fa79-238b-4c5f-8411-ac1f018b3d40",
+      "ETag": "W/\"a3-6WHO97fAZkl8yJ1tJ79Bl74JX04\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "bb0936d94061363fdc15747c747c21f1c7bf84def4ca8ac6818377f996ee5638"
+  },
+  {
+    "file": "gnomad/22-30468542-C-T.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-30468542-C-T"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:14:55.235012+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:14:55 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "cd1b07b9-3480-4772-8884-d1e7852bf207",
+      "ETag": "W/\"e2-NPfOt53agvkj+aDxB9KdSson0Ec\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "c5663783e286cce511b31e27314b1dce89c0082c23a25f71b1a378dad26768f5"
+  },
+  {
+    "file": "gnomad/22-30470253-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-30470253-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:17:20.953591+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:17:20 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "b1d595d4-44c5-4823-ac20-cec1e8414ed2",
+      "ETag": "W/\"e1-EqZhIx3+ZlOV2hl1s1aPHxKVZck\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "ddca41513d86720822e4248e8971c6a32f3c8a9e247467404da0d4fecb6e9e33"
+  },
+  {
+    "file": "gnomad/22-30555417-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-30555417-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:17:49.257937+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:17:49 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "224",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "1fad1f95-e0e0-4090-9583-6a727e8f40e4",
+      "ETag": "W/\"e0-OKr12Okmu5PEJnOozphks3gzq1I\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "b6ab36cdc90f527d571f1b470d93a7dbe0e380deb42728d9dd46f906f95d043e"
+  },
+  {
+    "file": "gnomad/22-31091807-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-31091807-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:18:32.620968+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:18:32 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "222",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "b4b82a83-1f65-4357-bf8e-cdd99378a529",
+      "ETag": "W/\"de-1BzsTO1pcmqEsnbD9bcxXu7ln8k\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "c09677c54629e2ab727e65b5a29f0fa15679069a319298a79fa00d3ba3f537a0"
+  },
+  {
+    "file": "gnomad/22-31095309-G-C.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-31095309-G-C"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:18:34.375687+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:18:34 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "224",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "b6937d3a-53c3-4f76-a43d-e6f5f45eb184",
+      "ETag": "W/\"e0-omuF9gm8yxLwdUq1yDz3GqQqB8w\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "eca93615b774d757dfcff90dae0a44f11fbd49483970998257f7b2c618581625"
+  },
+  {
+    "file": "gnomad/22-33304411-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-33304411-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:18:36.134729+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:18:36 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "7569b061-9c91-469c-b37c-1c64a15cecc3",
+      "ETag": "W/\"e2-yOFRnS3uwA5kz+/OpfijVTQeeKg\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "3544cbae3fdfc8af26aef00ac92e484a14ba363e93f727eb1fa54691cbd4c64b"
+  },
+  {
+    "file": "gnomad/22-33316147-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-33316147-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:18:38.328403+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:18:38 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "95050fe2-56fe-4c21-acda-66c669c2985c",
+      "ETag": "W/\"e1-jy/d1kY+C5Qbwo1bzK8bC1UsCUk\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "ef589023681797878b2d8eb547166efc87edd65e1fd9323b236a019395d57c25"
+  },
+  {
+    "file": "gnomad/22-33650610-C-G.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-33650610-C-G"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:18:41.161573+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:18:41 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "12f16c85-7090-42ed-972d-5260e97d61f3",
+      "ETag": "W/\"e2-1h+oNcUdkusLlO/IOAawHMUxZY0\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "b9d4bd238aa0e4b9c57ba0a19929ea0fb5a11657f93544c682b4f1ab3488e078"
+  },
+  {
+    "file": "transient_errors/22-38699844-G-C.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-38699844-G-C"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:19:03.155045+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:19:03 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "69",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "7e8518ae-a27a-4cfd-9090-3ae4d1a866bb",
+      "Cache-Control": "no-store",
+      "ETag": "W/\"45-E9C2RoKc+sbTEx4YF/IgTHKqeNY\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "56b8cef01cc91ccbb64f8fbfe1898903da39fc813f703fee4f8961e5a57a7c7c"
+  },
+  {
+    "file": "gnomad/22-38699844-G-C.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-38699844-G-C"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:19:52.910389+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:19:52 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "f84549e0-27bd-4823-a825-150000ab9150",
+      "ETag": "W/\"e1-2L/1v+3uxJV/Bqhg0ylTSHf9Tbw\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "12f552593b1eb71c405aea1e0a9fc25ab87dd7ae08eeb41926168c297e219576"
+  },
+  {
+    "file": "gnomad/22-39044144-C-T.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-39044144-C-T"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:20:14.462846+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:20:14 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "45aea1ff-f603-4f17-a7bb-160d2b857962",
+      "ETag": "W/\"e1-lLFduFBAGreGJtvg072w1lI9svo\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "26ff16f3c9c3c00972633221bac48291b5df4eee3ae4a1d83c94ca7a347354eb"
+  },
+  {
+    "file": "gnomad/22-39044171-A-T.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-39044171-A-T"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:20:19.553551+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:20:19 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "fc263053-6a64-42c5-b8c2-da266de8e251",
+      "ETag": "W/\"e1-EEVAsNfylZEzpBstviXthP65sjs\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "f459d60f632e1f3ae4ebc746a7c85ad38e0731c69d5bf44c0b8cd329873b9fe2"
+  },
+  {
+    "file": "gnomad/22-39231644-T-C.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-39231644-T-C"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:20:24.812025+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:20:24 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "032194ba-b66e-49a9-acf0-9d74ffce6f70",
+      "ETag": "W/\"e1-3E2IHV0NWSLFbF974wN8frE5/Qo\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "537fa92be76fe8d6fbf55c01112cf96c9fbdbc6fc9e17a1e443242550ab7bdd1"
+  },
+  {
+    "file": "gnomad/22-39231816-T-C.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-39231816-T-C"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:20:30.615537+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:20:30 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "224",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "b684c080-f90f-44eb-8c49-5e1e6ab470b5",
+      "ETag": "W/\"e0-ER6xGHWdfO7SQuo+gJk54YWUj08\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "a147581251241decb9cc059513481c5d8ffc87b02377d78c152f66d854b7b937"
+  },
+  {
+    "file": "gnomad/22-39374483-C-T.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-39374483-C-T"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:20:38.627128+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:20:38 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "cbab49c1-7777-484c-bc98-8f19792b5092",
+      "ETag": "W/\"e2-82kTh3uGYO5/4dT1Kd1lmC8QP+Q\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "440664aab35ada83974083a4e25a5e67d1ae94d6d72aceb3ae73f7a618e90c6e"
+  },
+  {
+    "file": "gnomad/22-39374495-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-39374495-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:20:41.713748+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:20:41 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "7adc17ef-cc23-4d6b-bb1d-f15f6752b9c0",
+      "ETag": "W/\"e2-J+/g8pCHwZeqer/eCG4tFdzFWIs\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "4c1b7b86f34fdf950e040003d27487509de5616ad3ef039a3c91c94e7885588d"
+  },
+  {
+    "file": "gnomad/22-39743860-A-G.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-39743860-A-G"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:21:12.250004+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:21:12 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "84ed6ab6-b546-42f3-be4b-232799bbbc62",
+      "ETag": "W/\"e1-0Q7kmDigereR8xGqUfAamsbIXV0\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "6ddf0465cc3492304331d8cb54244225d1099bb4073b618feeece6e6ca639b9c"
+  },
+  {
+    "file": "gnomad/22-39744223-A-G.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-39744223-A-G"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:21:23.522296+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:21:23 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "21312100-f54c-4834-bc92-94bc90ac5291",
+      "ETag": "W/\"e2-+FmasjdNQvp9S/yPQluYkRHm4SI\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "c49d11ea566b802a2ae02346afe66985235d024a03f84b7896baa81e925487c0"
+  },
+  {
+    "file": "gnomad/22-39744238-A-G.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-39744238-A-G"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:21:26.837910+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:21:26 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "166",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "20194e5a-cab3-46d0-b22c-0e9095a54312",
+      "ETag": "W/\"a6-w+1yZwkj5Jqxgp8gyMaMCZu9dTo\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "976a208cad6ea72c86a4e97c1183098de435055305cedafbc9f0d3eee3a65bb0"
+  },
+  {
+    "file": "gnomad/22-39861847-C-T.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-39861847-C-T"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:21:38.961016+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:21:38 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "224",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "b0cb3f3b-4e49-4ea9-9ea5-8bf33856d542",
+      "ETag": "W/\"e0-sDXK5+0YNTOrUpsTsQmn7+ieKE4\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "b4c7e640b4228a7c4b05a8bb063b838bdc6646c0b222ca75d75356af45334b1f"
+  },
+  {
+    "file": "gnomad/22-39862000-A-G.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-39862000-A-G"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:21:45.135019+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:21:44 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "223",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "bbd0d23c-49ec-4e7d-b036-b4aba4a56a8e",
+      "ETag": "W/\"df-CIQmWq+xbO8Su7AhERE6S1VFFkI\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "edb4ccc69a04becdf80bdaa2474071ea1bb31a73501b4168bc58f673cb08250e"
+  },
+  {
+    "file": "gnomad/22-40019319-C-T.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-40019319-C-T"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:21:48.535381+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:21:48 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "224",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "c87336dd-ff20-4910-8718-90d494818b40",
+      "ETag": "W/\"e0-R6lVuGgekj5srUvgz4SdBKJHRB4\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "8fec7232918b4d9d1f15ac0be4ac07cbb25b2bb16d4392cf91f6bd4dd638f809"
+  },
+  {
+    "file": "gnomad/22-40019964-G-T.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-40019964-G-T"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:22:05.098933+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:22:05 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "ed1f9f91-1d4b-48a9-983b-9040cefa57b4",
+      "ETag": "W/\"e2-3dcNAz2vhbtKS9chYf3XZzNKvZU\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "27e5efc8c2172edfae6845b7612567eb71d8729f8617291492a5583e21ff8cab"
+  },
+  {
+    "file": "gnomad/22-44891338-T-C.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-44891338-T-C"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:22:11.348781+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:22:11 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "225",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "2638d1ad-5b41-496d-ac0a-5ec97ed35e06",
+      "ETag": "W/\"e1-lcS/a0FN+yo8Js/s6lkSJWQCOE8\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "5eba0be324d260564775577fd7489be4b63ecbf5539736a3b7864ed71b723fac"
+  },
+  {
+    "file": "gnomad/22-44916394-G-A.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-44916394-G-A"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:22:21.002593+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:22:20 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "224",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "7e318937-8c2f-491f-a0f2-439622685add",
+      "ETag": "W/\"e0-1cGLItKjO2KGLlxFGDLiC4DNzf0\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "7f8a05cb58adf1ac311e9ecba774a42798988cb673980923de5d4732f5d3b6cf"
+  },
+  {
+    "file": "gnomad/22-44920488-A-G.json",
+    "url": "https://gnomad.broadinstitute.org/api",
+    "method": "POST",
+    "payload": {
+      "query": "query Variant($id: String!) {\n  variant(variantId: $id, dataset: gnomad_r4) {\n    variant_id reference_genome\n    exome { ac an af filters }\n    genome { ac an af filters }\n  }\n}",
+      "variables": {
+        "id": "22-44920488-A-G"
+      }
+    },
+    "retrieved_at_utc": "2026-11-02T09:22:44.306903+00:00",
+    "response_headers": {
+      "Server": "nginx/1.30.6",
+      "Date": "Mon, 02 Nov 2026 09:22:44 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "226",
+      "Vary": "Accept-Encoding",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "*",
+      "x-request-id": "2195f3db-3579-4cd1-9c15-65488f8bc546",
+      "ETag": "W/\"e2-To7RRxl4Zj5Zdu7DP5aL1xI8kq4\"",
+      "X-Cached": "MISS",
+      "Via": "1.1 google",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "sha256": "7fa70ac4537ca06f3f79e2027df1af6fa985d02e5c338b51ff43cfb7b704f73a"
+  },
+  {
+    "file": "dbsnp/rs61735928.json",
+    "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/61735928",
+    "method": "GET",
+    "payload": null,
+    "retrieved_at_utc": "2026-11-02T09:24:01.032900+00:00",
+    "response_headers": {
+      "Date": "Mon, 02 Nov 2026 09:24:00 GMT",
+      "Server": "nginx",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Ncbi-Sid": "F4E7C74EAE856B01_28729SID",
+      "Ncbi-Phid": "1D34A14D933F908500003467E9E86F29.1.1.m_1",
+      "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "private",
+      "X-Frame-Options": "DENY",
+      "Set-Cookie": "ncbi_sid=F4E7C74EAE856B01_28729SID; domain=.nih.gov; path=/; expires=Tue, 02 Nov 2027 09:24:00 GMT",
+      "Vary": "Accept-Encoding,Origin",
+      "X-Ua-Compatible": "IE=Edge",
+      "X-Xss-Protection": "1; mode=block",
+      "Transfer-Encoding": "chunked",
+      "Via": "1.1 google",
+      "Alt-Svc": "clear",
+      "Connection": "close"
+    },
+    "sha256": "b8b852e190f1f3be3871d93b5eb4aaac0b5b446e22d8fc875d868795b5878d11"
+  }
+]

@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# The repository-wide *.vcf rule must not hide the required original input.
+!input/student_06.vcf

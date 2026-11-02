@@ -1,0 +1,2 @@
+PASS: 50 unique variants; input order; VEP transcripts; exact ClinVar alleles;
+PASS: cohort-specific gnomAD AF=AC/AN; missing-value semantics; source SHA-256 hashes.

@@ -1,0 +1,33 @@
+{
+  "assembly": "GRCh38",
+  "species": "homo_sapiens",
+  "variant": 6,
+  "input_sha256": "249ba086aa3474d134347f33e94093f2c77abb84a67c21b7e103ac4500b47d5f",
+  "ensembl_release": {
+    "releases": [
+      116
+    ]
+  },
+  "ensembl_rest": {
+    "release": "15.12"
+  },
+  "vep_options": {
+    "canonical": 1,
+    "mane": 1,
+    "hgvs": 1,
+    "protein": 1,
+    "numbers": 1,
+    "transcript_version": 1,
+    "variant_class": 1
+  },
+  "transcripts": "Ensembl, all returned transcripts; no pick/per_gene filtering",
+  "selection_rule": "VEP_most_severe_then_MANE_Select_then_canonical_then_protein_coding_then_transcript_id",
+  "gnomad_dataset": "gnomad_r4",
+  "gnomad_af_rule": "Unfiltered genome AF if AN>0, else unfiltered exome AF; never combine cohorts",
+  "clinvar_search": "Union of rsID (All Fields) and chromosome+GRCh38 position (CHR+CPOS/chrpos38)",
+  "clinvar_match": "ClassifiedRecord/SimpleAllele/Location/SequenceLocation: exact GRCh38, Chr, positionVCF, referenceAlleleVCF, alternateAlleleVCF",
+  "clinvar_classification": "VCV aggregate GermlineClassification; retain conflicts verbatim",
+  "rsid_resolution": "Original IDs preserved; current allele-matching rsIDs from VEP; merges independently verified using NCBI RefSNP raw/dbsnp/",
+  "missing_values": "NA means unavailable/not applicable; never replaces missing AF with zero",
+  "request_provenance": "raw/requests.json"
+}

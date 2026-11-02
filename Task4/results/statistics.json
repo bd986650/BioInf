@@ -1,0 +1,58 @@
+{
+  "variant_count": 50,
+  "chromosome_counts": {
+    "21": 11,
+    "22": 39
+  },
+  "substitution_counts": {
+    "transition": 41,
+    "transversion": 9
+  },
+  "ti_tv_ratio": 4.555555555555555,
+  "consequences": {
+    "missense_variant": 32,
+    "synonymous_variant": 18
+  },
+  "clinvar_present": 19,
+  "clinvar_absent": 31,
+  "clinvar_classifications": {
+    "Uncertain significance": 3,
+    "Likely benign": 2,
+    "Benign": 8,
+    "Benign/Likely benign": 4,
+    "Conflicting classifications of pathogenicity": 2
+  },
+  "gnomad_status_counts": {
+    "present": 50
+  },
+  "gnomad_primary_af_source": {
+    "genome": 49,
+    "exome": 1
+  },
+  "transcript_row_count": 1281,
+  "selected_non_mane": [
+    "rs1135638",
+    "rs10576",
+    "rs5759611",
+    "rs34292743",
+    "rs5750728",
+    "rs114704208",
+    "rs114689408",
+    "rs35429467",
+    "rs114043304"
+  ],
+  "worst_differs_from_mane": [
+    "rs1135638",
+    "rs10576",
+    "rs5759611",
+    "rs34292743",
+    "rs5750728",
+    "rs114704208",
+    "rs114689408",
+    "rs35429467",
+    "rs114043304"
+  ],
+  "merged_rsids": {
+    "rs61735928": "rs20550"
+  }
+}
